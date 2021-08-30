@@ -1,0 +1,18 @@
+{
+  "CYPHER-SHEETS": {
+    "button-title": "Open To-Do list",
+    "add-todo": "Add To-Do",
+    "delete-todo": "Delete To-Do",
+    "mark-done": "Mark Done",
+    "settings": {
+      "numenera": {
+        "Name": "Numenéra PC sheets",
+        "Hint": "Make Numenéra custom character sheets available in your world."
+      },
+      "godforsaken": {
+        "Name": "Godforsaken PC sheets",
+        "Hint": "Make Godforsaken custom character sheets available in your world."
+      }
+    }
+  }
+}
