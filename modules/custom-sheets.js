@@ -4,14 +4,54 @@ import {CypherActorSheetPC} from "../../../systems/cyphersystem/module/actor/pc-
 
 // create new class extensions for cypher custom sheets
 
-export class NumeneraSheet extends CypherActorSheetPC {
-    /** @override */
-    static get defaultOptions() {
-      return foundry.utils.mergeObject(super.defaultOptions, {
-        template: "modules/cyphersheets/templates/numenera.html",
-        width: 700
-      });
-    }
+export class NumeneraArcher extends CypherActorSheetPC {
+  /** @override */
+  static get defaultOptions() {
+    return foundry.utils.mergeObject(super.defaultOptions, {
+      template: "modules/cyphersheets/templates/numenera-archer.html",
+      width: 700
+    });
+  }
+}
+
+export class NumeneraArcherAnimated extends CypherActorSheetPC {
+  /** @override */
+  static get defaultOptions() {
+    return foundry.utils.mergeObject(super.defaultOptions, {
+      template: "modules/cyphersheets/templates/numenera-archer-animated.html",
+      width: 700
+    });
+  }
+}
+
+export class NumeneraExplorer extends CypherActorSheetPC {
+  /** @override */
+  static get defaultOptions() {
+    return foundry.utils.mergeObject(super.defaultOptions, {
+      template: "modules/cyphersheets/templates/numenera-explorer.html",
+      width: 700
+    });
+  }
+}
+
+export class NumeneraExplorerAnimated extends CypherActorSheetPC {
+/** @override */
+static get defaultOptions() {
+  return foundry.utils.mergeObject(super.defaultOptions, {
+    template: "modules/cyphersheets/templates/numenera-explorer-animated.html",
+    width: 700
+  });
+}
+}
+
+export class NumeneraMonolith extends CypherActorSheetPC {
+  /** @override */
+  static get defaultOptions() {
+    return foundry.utils.mergeObject(super.defaultOptions, {
+      template: "modules/cyphersheets/templates/numenera-monolith.html",
+      width: 700
+    });
+  }
 }
 
 export class GodforsakenSheet extends CypherActorSheetPC {

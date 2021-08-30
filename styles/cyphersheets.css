@@ -1,4 +1,21 @@
-@keyframes animatedBackground {
+/* FUNCTIONS  */
+/* color variables --- fonts --- animations */
+
+:root {
+  --numenera-explorer: #321b40;
+  --numenera-explorer-transparent: #321b4080;
+  --numenera-archer: #046c7d;
+  --numenera-archer-transparent: #046c7d80;
+  --numenera-monolith: #742a15;
+  --numenera-monolith-transparent: #742a1580;
+}
+
+@font-face {
+  font-family: MinionPro;
+  src: url(./fonts/SoftMaker-QuadratSerial.otf);
+}
+
+@keyframes animatedBackgroundRight {
   from {
     background-position: 0 0;
   }
@@ -7,48 +24,155 @@
   }
 }
 
-#numenera {
-  background: url("https://img.redbull.com/images/c_fill,w_1500,h_1000,g_auto,f_auto,q_auto/redbullcom/2015/06/22/1331730998597_2/torment-tides-of-numenera-videojuego-p%C3%B3ster.jpg");
+@keyframes animatedBackgroundLeft {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+.pan-right {
+  animation: animatedBackgroundRight 150s linear infinite alternate;
+}
+
+.pan-left {
+  animation: animatedBackgroundLeft 150s linear infinite alternate;
+}
+
+/* CUSTOM CYPHER SHEET */
+/* repeated CSS elements for all style sheets */
+
+.custom-cypher-sheet {
   margin: -8px;
   padding: 5px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
 }
 
-#numenera {
-  background-position: 0px 0px;
-  background-repeat: repeat-x;
-  animation: animatedBackground 200s linear infinite alternate;
-}
-
-#numenera > form {
-  background: rgba(240, 248, 255, 0.65);
+.custom-cypher-sheet > form {
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
   padding: 3px 2px 1px;
   margin: 1px;
 }
 
-#numenera input[name="name"] {
+.custom-cypher-sheet input[name="name"] {
   background: transparent;
   border: none;
   text-transform: uppercase;
-  font-family: fantasy;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.8em;
-  color: #050556;
   margin-top: 10px;
 }
 
-#numenera input[name="data.basic.tier"],
-#numenera input[name="data.basic.effort"],
-#numenera input[name="data.basic.xp"] {
+.custom-cypher-sheet input[name="data.basic.tier"],
+.custom-cypher-sheet input[name="data.basic.effort"],
+.custom-cypher-sheet input[name="data.basic.xp"] {
   margin-right: 4px;
 }
 
-#numenera .profile-img {
+.custom-cypher-sheet
+  > form
+  .sheet-header
+  .header-fields
+  div.flexrow
+  img.profile-img {
   height: 130px;
   width: 130px;
 }
 
-#numenera a:hover {
-  text-shadow: 0 0 8px #050556;
+/* NUMENERA STYLE SHEETS */
+
+/* numenera-archer */
+
+.numenera-archer {
+  background-image: url("./images/numenera/fantasy-2770468.jpg");
+  background-position: 25%;
+}
+
+.numenera-archer input[name="name"] {
+  font: 2em "QuadratSerial";
+  color: var(--numenera-archer);
+}
+
+.numenera-archer a:hover {
+  text-shadow: 0 0 8px var(--numenera-archer);
+}
+
+.numenera-archer::-webkit-scrollbar-thumb {
+  background: var(--numenera-archer-transparent);
+  border: 1px solid var(--numenera-archer);
+}
+
+.numenera-archer h1,
+.numenera-archer h2 {
+  border-bottom-color: var(--numenera-archer);
+}
+
+/* numenera-explorer */
+
+.numenera-explorer {
+  background-image: url("./images/numenera/Cypher-System-Rulebook-54-Matt-Stawicki.jpg");
+  color: var(--numenera-explorer);
+  background-position: 35%;
+}
+
+.numenera-explorer input[name="name"] {
+  font: 2em "QuadratSerial";
+}
+
+.numenera-explorer input {
+  color: var(--numenera-explorer);
+}
+
+.numenera-explorer a:hover {
+  text-shadow: 0 0 8px var(--numenera-explorer);
+}
+
+.numenera-explorer::-webkit-scrollbar-thumb {
+  background: var(--numenera-explorer-transparent);
+  border: 1px solid var(--numenera-explorer);
+}
+
+.numenera-explorer h1,
+.numenera-explorer h2 {
+  border-bottom-color: var(--numenera-explorer);
+}
+
+/* numenera-monolith */
+
+.numenera-monolith {
+  background-image: url("./images/numenera/monument-754830.jpg");
+  color: var(--numenera-monolith);
+  background-position: center;
+}
+
+.numenera-monolith > form {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.numenera-monolith input[name="name"] {
+  font: 2em "QuadratSerial";
+}
+
+.numenera-monolith input {
+  color: var(--numenera-monolith);
+}
+
+.numenera-monolith a:hover {
+  text-shadow: 0 0 8px var(--numenera-monolith);
+}
+
+.numenera-monolith::-webkit-scrollbar-thumb {
+  background: var(--numenera-monolith-transparent);
+  border: 1px solid var(--numenera-monolith);
+}
+
+.numenera-monolith h1,
+.numenera-monolith h2 {
+  border-bottom-color: var(--numenera-monolith);
 }
 
 #godforsaken {
