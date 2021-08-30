@@ -1,5 +1,5 @@
 import {CypherActorSheetPC} from "../../../systems/cyphersystem/module/actor/pc-sheet.js";
-import {NumeneraExplorer, NumeneraExplorerAnimated, NumeneraArcher, NumeneraArcherAnimated, NumeneraMonolith, GodforsakenSheet} from "./custom-sheets.js";
+import {NumeneraExplorer, NumeneraExplorerAnimated, NumeneraArcher, NumeneraArcherAnimated, NumeneraMonolith, GodforsakenSheet} from "./numenera-sheets.js";
 import {preloadHandlebarsTemplates} from "./templates.js";
 import {registerNumeneraSettings, registerGodforsakenSettings} from "./settings.js";
 

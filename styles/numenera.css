@@ -1,0 +1,91 @@
+/* NUMENERA STYLE SHEETS */
+
+/* numenera-archer */
+
+.numenera-archer {
+  background-image: url("./images/numenera/fantasy-2770468.jpg");
+  background-position: 25%;
+}
+
+.numenera-archer input[name="name"] {
+  font: 2em "QuadratSerial";
+  color: var(--numenera-archer);
+}
+
+.numenera-archer a:hover {
+  text-shadow: 0 0 8px var(--numenera-archer);
+}
+
+.numenera-archer::-webkit-scrollbar-thumb {
+  background: var(--numenera-archer-transparent);
+  border: 1px solid var(--numenera-archer);
+}
+
+.numenera-archer h1,
+.numenera-archer h2 {
+  border-bottom-color: var(--numenera-archer);
+}
+
+/* numenera-explorer */
+
+.numenera-explorer {
+  background-image: url("./images/numenera/Cypher-System-Rulebook-54-Matt-Stawicki.jpg");
+  color: var(--numenera-explorer);
+  background-position: 35%;
+}
+
+.numenera-explorer input[name="name"] {
+  font: 2em "QuadratSerial";
+}
+
+.numenera-explorer input {
+  color: var(--numenera-explorer);
+}
+
+.numenera-explorer a:hover {
+  text-shadow: 0 0 8px var(--numenera-explorer);
+}
+
+.numenera-explorer::-webkit-scrollbar-thumb {
+  background: var(--numenera-explorer-transparent);
+  border: 1px solid var(--numenera-explorer);
+}
+
+.numenera-explorer h1,
+.numenera-explorer h2 {
+  border-bottom-color: var(--numenera-explorer);
+}
+
+/* numenera-monolith */
+
+.numenera-monolith {
+  background-image: url("./images/numenera/monument-754830.jpg");
+  color: var(--numenera-monolith);
+  background-position: center;
+}
+
+.numenera-monolith > form {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.numenera-monolith input[name="name"] {
+  font: 2em "QuadratSerial";
+}
+
+.numenera-monolith input {
+  color: var(--numenera-monolith);
+}
+
+.numenera-monolith a:hover {
+  text-shadow: 0 0 8px var(--numenera-monolith);
+}
+
+.numenera-monolith::-webkit-scrollbar-thumb {
+  background: var(--numenera-monolith-transparent);
+  border: 1px solid var(--numenera-monolith);
+}
+
+.numenera-monolith h1,
+.numenera-monolith h2 {
+  border-bottom-color: var(--numenera-monolith);
+}

@@ -1,0 +1,8 @@
+/* FONTS */
+
+/* numenera font */
+
+@font-face {
+  font-family: MinionPro;
+  src: url("./fonts/SoftMaker-QuadratSerial.otf");
+}

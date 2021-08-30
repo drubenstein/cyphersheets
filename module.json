@@ -14,10 +14,14 @@
       }
     ],
     "esmodules": [
-        "modules/cyphersheets.js"
+        "modules/cyphersheets-main.js"
     ],
     "styles": [
-        "styles/cyphersheets.css"
+        "styles/cyphersheets.css",
+        "styles/numenera.css",
+        "styles/fonts.css",
+        "styles/variables.css",
+        "styles/animations.css"
       ],
     "languages": [
         {

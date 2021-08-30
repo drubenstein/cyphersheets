@@ -1,0 +1,27 @@
+/* ANIMATIONS */
+
+@keyframes animatedBackgroundRight {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes animatedBackgroundLeft {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+.pan-right {
+  animation: animatedBackgroundRight 150s linear infinite alternate;
+}
+
+.pan-left {
+  animation: animatedBackgroundLeft 150s linear infinite alternate;
+}
