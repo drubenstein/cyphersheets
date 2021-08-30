@@ -27,6 +27,6 @@
         }
     ],
     "url": "https://github.com/gonzaPaEst/cyphersheets",
-	  "manifest": "",
-	  "download": ""
+	  "manifest": "https://raw.githubusercontent.com/gonzaPaEst/cyphersheets/main/module.json",
+	  "download": "https://github.com/gonzaPaEst/cyphersheets/releases/latest/download/module.zip"
   }
