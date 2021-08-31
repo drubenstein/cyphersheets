@@ -1,7 +1,7 @@
 {
     "name": "cyphersheets",
     "title": "Cypher System Custom Sheets",
-    "description": "Replaces the default Cypher System PC sheet (made by mrkwnzl) with alternate styles based on MCG settings: Numenéra, The Strange, Godforsaken, etc.",
+    "description": "Replaces the default Cypher System PC sheet (created by mrkwnzl) with over 40 alternate styles based on MCG settings and other generic themes.",
     "author": "gonzaPaEst",
     "version": "0.1.0",
     "minimumCoreVersion": "0.8.9",
