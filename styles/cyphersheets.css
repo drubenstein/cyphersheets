@@ -39,37 +39,3 @@
   height: 130px;
   width: 130px;
 }
-
-#godforsaken {
-  background: url("https://d1vzi28wh99zvq.cloudfront.net/images/4952/_product_images/331311/Godforsaken_50_Angelo_Peluso.jpg");
-  margin: -8px;
-  padding: 5px;
-  background-position: 0px 0px;
-  background-repeat: repeat-x;
-  animation: animatedBackground 200s linear infinite alternate;
-}
-
-#godforsaken > form {
-  background: rgba(240, 248, 255, 0.65);
-  border-radius: 3px;
-  padding: 1px;
-  padding-top: 6px;
-}
-
-#godforsaken input[name="name"] {
-  background: transparent;
-  border: none;
-  text-transform: uppercase;
-  font-family: fantasy;
-  font-size: 1.8em;
-  color: #050556;
-}
-
-#godforsaken .profile-img {
-  height: 125px;
-  width: 125px;
-}
-
-#godforsaken a:hover {
-  text-shadow: 0 0 8px #050556;
-}

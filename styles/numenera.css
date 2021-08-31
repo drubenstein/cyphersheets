@@ -8,15 +8,27 @@
 }
 
 .numenera-archer input[name="name"] {
-  font: 2em "QuadratSerial";
+  font: 1.8em "QuadratSerial";
   color: var(--numenera-archer);
+}
+
+.numenera-archer input[name="data.basic.tier"] {
+  margin-top: 18px;
+}
+
+.numenera-archer label.label-basic-info:first-of-type {
+  margin-top: 18px;
+}
+
+.numenera-archer input:focus {
+  box-shadow: 0 0 5px var(--numenera-archer);
 }
 
 .numenera-archer a:hover {
   text-shadow: 0 0 8px var(--numenera-archer);
 }
 
-.numenera-archer::-webkit-scrollbar-thumb {
+.numenera-archer ::-webkit-scrollbar-thumb {
   background: var(--numenera-archer-transparent);
   border: 1px solid var(--numenera-archer);
 }
@@ -35,18 +47,30 @@
 }
 
 .numenera-explorer input[name="name"] {
-  font: 2em "QuadratSerial";
+  font: 1.8em "QuadratSerial";
+}
+
+.numenera-explorer input[name="data.basic.tier"] {
+  margin-top: 18px;
+}
+
+.numenera-explorer label.label-basic-info:first-of-type {
+  margin-top: 18px;
 }
 
 .numenera-explorer input {
   color: var(--numenera-explorer);
 }
 
+.numenera-explorer input:focus {
+  box-shadow: 0 0 5px var(--numenera-explorer);
+}
+
 .numenera-explorer a:hover {
   text-shadow: 0 0 8px var(--numenera-explorer);
 }
 
-.numenera-explorer::-webkit-scrollbar-thumb {
+.numenera-explorer ::-webkit-scrollbar-thumb {
   background: var(--numenera-explorer-transparent);
   border: 1px solid var(--numenera-explorer);
 }
@@ -69,18 +93,30 @@
 }
 
 .numenera-monolith input[name="name"] {
-  font: 2em "QuadratSerial";
+  font: 1.8em "QuadratSerial";
+}
+
+.numenera-monolith input[name="data.basic.tier"] {
+  margin-top: 18px;
+}
+
+.numenera-monolith label.label-basic-info:first-of-type {
+  margin-top: 18px;
 }
 
 .numenera-monolith input {
   color: var(--numenera-monolith);
 }
 
+.numenera-monolith input:focus {
+  box-shadow: 0 0 5px var(--numenera-monolith);
+}
+
 .numenera-monolith a:hover {
   text-shadow: 0 0 8px var(--numenera-monolith);
 }
 
-.numenera-monolith::-webkit-scrollbar-thumb {
+.numenera-monolith ::-webkit-scrollbar-thumb {
   background: var(--numenera-monolith-transparent);
   border: 1px solid var(--numenera-monolith);
 }

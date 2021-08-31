@@ -21,7 +21,8 @@
         "styles/numenera.css",
         "styles/fonts.css",
         "styles/variables.css",
-        "styles/animations.css"
+        "styles/animations.css",
+        "styles/godforsaken.css"
       ],
     "languages": [
         {

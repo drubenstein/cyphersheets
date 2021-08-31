@@ -3,6 +3,13 @@
 /* numenera font */
 
 @font-face {
-  font-family: MinionPro;
-  src: url("./fonts/SoftMaker-QuadratSerial.otf");
+  font-family: "QuadratSerial";
+  src: url("./fonts/SoftMaker-QuadratSerial.otf") format("opentype");
+}
+
+/* fantasy font */
+
+@font-face {
+  font-family: "Endoralt";
+  src: url("./fonts/ENDORALT.ttf") format("truetype");
 }
