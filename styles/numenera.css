@@ -4,12 +4,14 @@
 
 .numenera-archer {
   background-image: url("./images/numenera/fantasy-2770468.jpg");
-  background-position: 25%;
+  background-position: 30%;
 }
 
 .numenera-archer input[name="name"] {
-  font: 1.8em "QuadratSerial";
+  font: 2.2em "QuadratSerial";
   color: var(--numenera-archer);
+  letter-spacing: 0.5px;
+  height: 35px;
 }
 
 .numenera-archer input[name="data.basic.tier"] {
@@ -41,13 +43,15 @@
 /* numenera-explorer */
 
 .numenera-explorer {
-  background-image: url("./images/numenera/Cypher-System-Rulebook-54-Matt-Stawicki.jpg");
+  background-image: url("./images/numenera/The-Stars-Are-Fire-55-Katerina-Ladon.jpg");
   color: var(--numenera-explorer);
-  background-position: 35%;
+  background-position: 47%;
 }
 
 .numenera-explorer input[name="name"] {
-  font: 1.8em "QuadratSerial";
+  font: 2.2em "QuadratSerial";
+  letter-spacing: 0.5px;
+  height: 35px;
 }
 
 .numenera-explorer input[name="data.basic.tier"] {
@@ -93,7 +97,9 @@
 }
 
 .numenera-monolith input[name="name"] {
-  font: 1.8em "QuadratSerial";
+  font: 2.2em "QuadratSerial";
+  letter-spacing: 0.5px;
+  height: 35px;
 }
 
 .numenera-monolith input[name="data.basic.tier"] {
