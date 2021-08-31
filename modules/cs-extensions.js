@@ -2,7 +2,7 @@
 
 import {CypherActorSheetPC} from "../../../systems/cyphersystem/module/actor/pc-sheet.js";
 
-// create new class extension for cypher custom sheets => overrides width
+// create new class extension from original cyphersystem sheet => overrides width
 
 export class CustomCypherSheet extends CypherActorSheetPC {
   /** @override */
@@ -12,3 +12,12 @@ export class CustomCypherSheet extends CypherActorSheetPC {
     });
   }
 }
+
+// load original pc-sheet template from cypherystem
+
+export const preloadHandlebarsTemplates = async function() {
+  return loadTemplates([
+
+    "systems/cyphersystem/templates/actor/pc-sheet.html"
+  ]);
+};

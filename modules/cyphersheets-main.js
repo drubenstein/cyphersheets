@@ -1,7 +1,7 @@
 import {CypherActorSheetPC} from "../../../systems/cyphersystem/module/actor/pc-sheet.js";
-import {NumeneraExplorer, NumeneraExplorerAnimated, NumeneraArcher, NumeneraArcherAnimated, NumeneraMonolith, GodforsakenSheet} from "./numenera-sheets.js";
-import {preloadHandlebarsTemplates} from "./templates.js";
-import {registerNumeneraSettings, registerGodforsakenSettings} from "./settings.js";
+import {registerNumeneraSettings, NumeneraExplorer, NumeneraExplorerAnimated, NumeneraArcher, NumeneraArcherAnimated, NumeneraMonolith} from "./numenera.js";
+import {preloadHandlebarsTemplates} from "./cs-extensions.js";
+import {registerGodforsakenSettings, GodforsakenSheet} from "./godforsaken.js";
 
 
 // a class to hold constants for cyphersheets
