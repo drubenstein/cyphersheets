@@ -51,12 +51,3 @@ export class NumeneraArcher extends CustomCypherSheet {
     });
   }
   }
-  
-  export class NumeneraMonolith extends CustomCypherSheet {
-    /** @override */
-    static get defaultOptions() {
-      return foundry.utils.mergeObject(super.defaultOptions, {
-        template: "modules/cyphersheets/templates/numenera-monolith.html"
-      });
-    }
-  }

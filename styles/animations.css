@@ -1,6 +1,6 @@
 /* ANIMATIONS */
 
-@keyframes animatedBackgroundRight {
+@keyframes animateRight {
   from {
     background-position: 0 0;
   }
@@ -9,7 +9,7 @@
   }
 }
 
-@keyframes animatedBackgroundLeft {
+@keyframes animateLeft {
   from {
     background-position: 100% 0;
   }
@@ -19,9 +19,35 @@
 }
 
 .pan-right {
-  animation: animatedBackgroundRight 150s linear infinite alternate;
+  animation: animateRight 150s linear infinite alternate;
 }
 
 .pan-left {
-  animation: animatedBackgroundLeft 150s linear infinite alternate;
+  animation: animateLeft 150s linear infinite alternate;
+}
+
+@keyframes breathIn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes breathOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+.breath {
+  animation: breathIn 10s ease-in-out infinite alternate;
+}
+
+.breath > form {
+  animation: breathOut 10s ease-in-out infinite alternate;
 }

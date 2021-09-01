@@ -11,6 +11,7 @@
   letter-spacing: 2px;
   height: 42px;
   margin-top: 3px;
+  text-shadow: 0px 4px 5px #6f9485;
 }
 
 .godforsaken input[name="data.basic.tier"] {
@@ -21,7 +22,8 @@
   margin-top: 19px;
 }
 
-.godforsaken input {
+.godforsaken input,
+.godforsaken select {
   color: var(--godforsaken);
 }
 
