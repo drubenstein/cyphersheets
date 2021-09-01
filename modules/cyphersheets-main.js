@@ -2,6 +2,7 @@ import {CypherActorSheetPC} from "../../../systems/cyphersystem/module/actor/pc-
 import {registerNumeneraSettings, NumeneraExplorer, NumeneraExplorerAnimated, NumeneraArcher, NumeneraArcherAnimated} from "./numenera.js";
 import {registerOriginalSheetSettings, preloadHandlebarsTemplates} from "./cs-extensions.js";
 import {registerGodforsakenSettings, Godforsaken, GodforsakenAnimated} from "./godforsaken.js";
+import {registerGotFSettings, GodsoftheFall, GodsoftheFallAnimated} from "./godsofthefall.js";
 
 
 // a class to hold constants for cyphersheets
@@ -12,6 +13,7 @@ class CypherSheets {
     static SETTINGS = {
         NUMENERA: 'numenera',
         GODFORSAKEN: 'godforsaken',
+        GODSOFTHEFALL: 'godsofthefall',
         ORIGINAL: 'originalsheet'
     }
 
@@ -19,6 +21,7 @@ class CypherSheets {
         // register cypher sheets settings
         registerNumeneraSettings();
         registerGodforsakenSettings();
+        registerGotFSettings();
         registerOriginalSheetSettings();
 
         // return pc-sheet template
@@ -42,6 +45,11 @@ Hooks.once('init', () => {
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GODFORSAKEN)) {
         Actors.registerSheet("cypher", Godforsaken, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", GodforsakenAnimated, {types: ['PC'], makeDefault: false});
+    }
+
+    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GODSOFTHEFALL)) {
+        Actors.registerSheet("cypher", GodsoftheFall, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", GodsoftheFallAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.ORIGINAL)) {

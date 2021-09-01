@@ -18,11 +18,11 @@
   }
 }
 
-.pan-right {
+.animate-right {
   animation: animateRight 150s linear infinite alternate;
 }
 
-.pan-left {
+.animate-left {
   animation: animateLeft 150s linear infinite alternate;
 }
 

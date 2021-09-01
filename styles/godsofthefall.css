@@ -1,0 +1,46 @@
+/* godsofthefall */
+
+.godsofthefall {
+  background-image: url("./images/gods-of-the-fall/Gods-of-the-Fall-07-Matt-Stawicki.jpg");
+  color: var(--godsofthefall);
+  background-position: right;
+}
+
+.godsofthefall input[name="name"] {
+  font: 3em "Endoralt";
+  letter-spacing: 2px;
+  height: 42px;
+  margin-top: 3px;
+  text-shadow: 0px 4px 5px var(--godsofthefall-shadow);
+}
+
+.godsofthefall input[name="data.basic.tier"] {
+  margin-top: 18px;
+}
+
+.godsofthefall label.label-basic-info:first-of-type {
+  margin-top: 18px;
+}
+
+.godsofthefall input,
+.godsofthefall select {
+  color: var(--godsofthefall);
+}
+
+.godsofthefall input:focus {
+  box-shadow: 0 0 5px var(--godsofthefall-shadow);
+}
+
+.godsofthefall a:hover {
+  text-shadow: 0 0 8px var(--godsofthefall-shadow);
+}
+
+.godsofthefall ::-webkit-scrollbar-thumb {
+  background: var(--godsofthefall-transparent);
+  border: 1px solid var(--godsofthefall);
+}
+
+.godsofthefall h1,
+.godsofthefall h2 {
+  border-bottom-color: var(--godsofthefall);
+}

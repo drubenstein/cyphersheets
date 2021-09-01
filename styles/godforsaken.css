@@ -1,4 +1,4 @@
-/* numenera-explorer */
+/* godforsaken */
 
 .godforsaken {
   background-image: url("./images/godforsaken/Godforsaken-50-Angelo-Peluso.jpg");
@@ -11,15 +11,15 @@
   letter-spacing: 2px;
   height: 42px;
   margin-top: 3px;
-  text-shadow: 0px 4px 5px #6f9485;
+  text-shadow: 0px 4px 5px var(--godforsaken-shadow);
 }
 
 .godforsaken input[name="data.basic.tier"] {
-  margin-top: 19px;
+  margin-top: 18px;
 }
 
 .godforsaken label.label-basic-info:first-of-type {
-  margin-top: 19px;
+  margin-top: 18px;
 }
 
 .godforsaken input,
@@ -28,11 +28,11 @@
 }
 
 .godforsaken input:focus {
-  box-shadow: 0 0 5px var(--godforsaken);
+  box-shadow: 0 0 5px var(--godforsaken-shadow);
 }
 
 .godforsaken a:hover {
-  text-shadow: 0 0 8px var(--godforsaken);
+  text-shadow: 0 0 8px var(--godforsaken-shadow);
 }
 
 .godforsaken ::-webkit-scrollbar-thumb {

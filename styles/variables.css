@@ -1,13 +1,17 @@
 /* COLOR VARIABLES */
 
 :root {
-  --numenera-explorer: #321b40;
-  --numenera-explorer-transparent: #321b4080;
   --numenera-archer: #046c7d;
+  --numenera-archer-shadow: #b4dcec;
   --numenera-archer-transparent: #046c7d80;
   --numenera-archer-font: #011714;
-  --numenera-monolith: #742a15;
-  --numenera-monolith-transparent: #742a1580;
+  --numenera-explorer: #321b40;
+  --numenera-explorer-shadow: #9980af;
+  --numenera-explorer-transparent: #321b4080;
   --godforsaken: #002f23;
+  --godforsaken-shadow: #6f9485;
   --godforsaken-transparent: #002f2380;
+  --godsofthefall: #292516;
+  --godsofthefall-shadow: #574e2d;
+  --godsofthefall-transparent: #29251680;
 }
