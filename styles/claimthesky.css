@@ -1,0 +1,45 @@
+/* claimthesky */
+
+.claimthesky {
+  background-image: url("./images/claim-the-sky/Cypher-System-Rulebook-11-Robert-Pitturru.webp");
+  color: var(--claimthesky);
+  background-position: right;
+}
+
+.claimthesky input[name="name"] {
+  font: 2.1em "Flames";
+  height: 37px;
+  margin-top: 3px;
+  text-shadow: 0px 1px 1px var(--claimthesky-shadow);
+}
+
+.claimthesky input[name="data.basic.tier"] {
+  margin-top: 18px;
+}
+
+.claimthesky label.label-basic-info:first-of-type {
+  margin-top: 18px;
+}
+
+.claimthesky input,
+.claimthesky select {
+  color: var(--claimthesky);
+}
+
+.claimthesky input:focus {
+  box-shadow: 0 0 5px var(--claimthesky-shadow);
+}
+
+.claimthesky a:hover {
+  text-shadow: 0 0 8px var(--claimthesky-shadow);
+}
+
+.claimthesky ::-webkit-scrollbar-thumb {
+  background: var(--claimthesky-transparent);
+  border: 1px solid var(--claimthesky);
+}
+
+.claimthesky h1,
+.claimthesky h2 {
+  border-bottom-color: var(--claimthesky);
+}

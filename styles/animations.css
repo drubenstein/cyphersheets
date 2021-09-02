@@ -1,29 +1,55 @@
 /* ANIMATIONS */
 
-@keyframes animateRight {
+@keyframes animateLeftRight {
   from {
-    background-position: 0 0;
+    background-position: left;
   }
   to {
-    background-position: 100% 0;
+    background-position: right;
   }
 }
 
-@keyframes animateLeft {
+@keyframes animateCenterRight {
   from {
-    background-position: 100% 0;
+    background-position: center;
   }
   to {
-    background-position: 0 0;
+    background-position: right;
   }
 }
 
-.animate-right {
-  animation: animateRight 150s linear infinite alternate;
+@keyframes animateRightLeft {
+  from {
+    background-position: right;
+  }
+  to {
+    background-position: left;
+  }
 }
 
-.animate-left {
-  animation: animateLeft 150s linear infinite alternate;
+@keyframes animateCenterLeft {
+  from {
+    background-position: center;
+  }
+  to {
+    background-position: left;
+  }
+}
+
+.animate-left-right {
+  animation: animateLeftRight 150s linear infinite alternate;
+}
+
+.animate-center-right {
+  animation: animateCenterRight 150s linear infinite alternate;
+}
+
+.animate-right-left {
+  animation: animateRightLeft 150s linear infinite alternate;
+}
+
+.animate-center-left {
+  animation: animateCenterLeft 150s linear infinite alternate;
 }
 
 @keyframes breathIn {
@@ -31,7 +57,7 @@
     transform: scale(1);
   }
   100% {
-    transform: scale(1.1);
+    transform: scale(1.15);
   }
 }
 
@@ -40,14 +66,14 @@
     transform: scale(1);
   }
   100% {
-    transform: scale(0.9);
+    transform: scale(0.85);
   }
 }
 
 .breath {
-  animation: breathIn 10s ease-in-out infinite alternate;
+  animation: breathIn 15s ease-in-out infinite alternate;
 }
 
 .breath > form {
-  animation: breathOut 10s ease-in-out infinite alternate;
+  animation: breathOut 15s ease-in-out infinite alternate;
 }

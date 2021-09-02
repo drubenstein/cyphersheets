@@ -17,7 +17,7 @@
 /* numenera archer */
 
 .archer {
-  background-image: url("./images/numenera/fantasy-2770468.jpg");
+  background-image: url("./images/numenera/fantasy-2770468.webp");
   background-position: 30%;
   color: var(--numenera-archer-font);
 }
@@ -53,7 +53,7 @@
 /* numenera explorer */
 
 .explorer {
-  background-image: url("./images/numenera/The-Stars-Are-Fire-55-Katerina-Ladon.jpg");
+  background-image: url("./images/numenera/The-Stars-Are-Fire-55-Katerina-Ladon.webp");
   color: var(--numenera-explorer);
   background-position: 47%;
 }

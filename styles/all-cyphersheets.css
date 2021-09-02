@@ -1,0 +1,55 @@
+/* CUSTOM CYPHER SHEET */
+/* repeated CSS elements for all style sheets */
+
+.custom-cypher-sheet {
+  margin: -8px;
+  padding: 5px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.custom-cypher-sheet > form {
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 3px;
+  padding: 3px 2px 1px;
+  margin: 1px;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+}
+
+.custom-cypher-sheet input,
+.custom-cypher-sheet select {
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+}
+
+.custom-cypher-sheet input[name="name"] {
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.8em;
+  margin-top: 10px;
+}
+
+.custom-cypher-sheet input[name="data.basic.tier"],
+.custom-cypher-sheet input[name="data.basic.effort"],
+.custom-cypher-sheet input[name="data.basic.xp"] {
+  margin-right: 4px;
+}
+
+/* .custom-cypher-sheet input[name="data.basic.tier"] {
+  margin-top: 18px;
+}
+
+.custom-cypher-sheet label.label-basic-info:first-of-type {
+  margin-top: 18px;
+} */
+
+.custom-cypher-sheet
+  > form
+  .sheet-header
+  .header-fields
+  div.flexrow
+  img.profile-img {
+  height: 130px;
+  width: 130px;
+}

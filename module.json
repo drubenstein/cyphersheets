@@ -17,13 +17,14 @@
         "modules/cyphersheets-main.js"
     ],
     "styles": [
-        "styles/cyphersheets.css",
+        "styles/all-cyphersheets.css",
         "styles/numenera.css",
         "styles/fonts.css",
         "styles/variables.css",
         "styles/animations.css",
         "styles/godforsaken.css",
-        "styles/godsofthefall.css"
+        "styles/godsofthefall.css",
+        "styles/claimthesky.css"
       ],
     "languages": [
         {

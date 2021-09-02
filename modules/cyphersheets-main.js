@@ -3,6 +3,7 @@ import {registerNumeneraSettings, NumeneraExplorer, NumeneraExplorerAnimated, Nu
 import {registerOriginalSheetSettings, preloadHandlebarsTemplates} from "./cs-extensions.js";
 import {registerGodforsakenSettings, Godforsaken, GodforsakenAnimated} from "./godforsaken.js";
 import {registerGotFSettings, GodsoftheFall, GodsoftheFallAnimated} from "./godsofthefall.js";
+import {registerClaimtheSkySettings, ClaimtheSky, ClaimtheSkyAnimated} from "./claimthesky.js";
 
 
 // a class to hold constants for cyphersheets
@@ -12,6 +13,7 @@ class CypherSheets {
 
     static SETTINGS = {
         NUMENERA: 'numenera',
+        CLAIMTHESKY: 'claimthesky',
         GODFORSAKEN: 'godforsaken',
         GODSOFTHEFALL: 'godsofthefall',
         ORIGINAL: 'originalsheet'
@@ -20,6 +22,7 @@ class CypherSheets {
     static initialize() {
         // register cypher sheets settings
         registerNumeneraSettings();
+        registerClaimtheSkySettings();
         registerGodforsakenSettings();
         registerGotFSettings();
         registerOriginalSheetSettings();
@@ -40,6 +43,11 @@ Hooks.once('init', () => {
         Actors.registerSheet("cypher", NumeneraArcherAnimated, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", NumeneraExplorer, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", NumeneraExplorerAnimated, {types: ['PC'], makeDefault: false});
+    }
+
+    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.CLAIMTHESKY)) {
+        Actors.registerSheet("cypher", ClaimtheSky, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", ClaimtheSkyAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GODFORSAKEN)) {
