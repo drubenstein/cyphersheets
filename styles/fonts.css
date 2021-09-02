@@ -14,9 +14,15 @@
   src: url("./fonts/ENDORALT.ttf") format("truetype");
 }
 
-/* supers */
+/* supers font */
 
 @font-face {
   font-family: "Flames";
   src: url("./fonts/Flames.ttf") format("truetype");
+}
+
+/* predation font */
+@font-face {
+  font-family: "Extraction";
+  src: url("./fonts/extraction.ttf") format("truetype");
 }

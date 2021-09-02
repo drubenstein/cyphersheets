@@ -3,7 +3,7 @@
 .claimthesky {
   background-image: url("./images/claim-the-sky/Cypher-System-Rulebook-11-Robert-Pitturru.webp");
   color: var(--claimthesky);
-  background-position: right;
+  background-position: center;
 }
 
 .claimthesky input[name="name"] {

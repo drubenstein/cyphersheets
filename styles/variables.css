@@ -14,7 +14,10 @@
   --godsofthefall: #292516;
   --godsofthefall-shadow: #574e2d;
   --godsofthefall-transparent: #29251680;
-  --claimthesky: #8b2e03;
+  --claimthesky: #800000;
   --claimthesky-shadow: #ffe154;
-  --claimthesky-transparent: #8b2e0380;
+  --claimthesky-transparent: #80000080;
+  --predation: #26402a;
+  --predation-shadow: #925b4a;
+  --predation-transparent: #26402a80;
 }

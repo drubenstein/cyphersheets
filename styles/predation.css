@@ -1,0 +1,44 @@
+/* predation */
+
+.predation {
+  background-image: url("./images/predation/Predation-14-Lie-Setiawan.webp");
+  color: var(--predation);
+  background-position: 20%;
+}
+
+.predation input[name="name"] {
+  font: 2.3em "Extraction";
+  height: 35px;
+  text-shadow: -1px 0px 1px var(--predation-shadow);
+}
+
+.predation input[name="data.basic.tier"] {
+  margin-top: 18px;
+}
+
+.predation label.label-basic-info:first-of-type {
+  margin-top: 18px;
+}
+
+.predation input,
+.predation select {
+  color: var(--predation);
+}
+
+.predation input:focus {
+  box-shadow: 0 0 5px var(--predation-shadow);
+}
+
+.predation a:hover {
+  text-shadow: 0 0 8px var(--predation-shadow);
+}
+
+.predation ::-webkit-scrollbar-thumb {
+  background: var(--predation-transparent);
+  border: 1px solid var(--predation);
+}
+
+.predation h1,
+.predation h2 {
+  border-bottom-color: var(--predation);
+}

@@ -1,9 +1,9 @@
 {
     "name": "cyphersheets",
     "title": "Cypher System Custom Sheets",
-    "description": "Replaces the default Cypher System PC sheet (created by mrkwnzl) with over 40 alternate styles based on MCG settings and other generic themes.",
+    "description": "Replaces the default Cypher System PC sheet (created by mrkwnzl) with alternate styles based on MCG settings and other generic themes.",
     "author": "gonzaPaEst",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "minimumCoreVersion": "0.8.9",
     "compatibleCoreVersion": "0.8.9",
     "system": "cyphersystem",
@@ -24,7 +24,8 @@
         "styles/animations.css",
         "styles/godforsaken.css",
         "styles/godsofthefall.css",
-        "styles/claimthesky.css"
+        "styles/claimthesky.css",
+        "styles/predation.css"
       ],
     "languages": [
         {
