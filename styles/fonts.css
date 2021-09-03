@@ -7,21 +7,21 @@
   src: url("./fonts/SoftMaker-QuadratSerial.otf") format("opentype");
 }
 
-/* fantasy font */
+/* godforsaken & godsofthefall font */
 
 @font-face {
   font-family: "Endoralt";
   src: url("./fonts/ENDORALT.ttf") format("truetype");
 }
 
-/* supers font */
+/* claimthesky font */
 
 @font-face {
   font-family: "Flames";
   src: url("./fonts/Flames.ttf") format("truetype");
 }
 
-/* predation font */
+/* predation & thestrange font */
 @font-face {
   font-family: "Extraction";
   src: url("./fonts/extraction.ttf") format("truetype");

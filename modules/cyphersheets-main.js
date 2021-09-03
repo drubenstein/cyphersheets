@@ -5,6 +5,7 @@ import {registerGodforsakenSettings, Godforsaken, GodforsakenAnimated} from "./g
 import {registerGotFSettings, GodsoftheFall, GodsoftheFallAnimated} from "./godsofthefall.js";
 import {registerClaimtheSkySettings, ClaimtheSky, ClaimtheSkyAnimated} from "./claimthesky.js";
 import {registerPredationSettings, Predation, PredationAnimated} from "./predation.js";
+import {registerTheStrangeSettings, TheStrange, TheStrangeAnimated} from "./thestrange.js";
 
 // a class to hold constants for cyphersheets
 class CypherSheets {
@@ -17,6 +18,7 @@ class CypherSheets {
         GODFORSAKEN: 'godforsaken',
         GODSOFTHEFALL: 'godsofthefall',
         PREDATION: 'predation',
+        THESTRANGE: 'thestrange',
         ORIGINAL: 'originalsheet'
     }
 
@@ -27,6 +29,7 @@ class CypherSheets {
         registerGodforsakenSettings();
         registerGotFSettings();
         registerPredationSettings();
+        registerTheStrangeSettings();
         registerOriginalSheetSettings();
 
         // return pc-sheet template
@@ -65,6 +68,11 @@ Hooks.once('init', () => {
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.PREDATION)) {
         Actors.registerSheet("cypher", Predation, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", PredationAnimated, {types: ['PC'], makeDefault: false});
+    }
+
+    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.THESTRANGE)) {
+        Actors.registerSheet("cypher", TheStrange, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", TheStrangeAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.ORIGINAL)) {

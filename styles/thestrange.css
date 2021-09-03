@@ -1,0 +1,44 @@
+/* thestrange */
+
+.thestrange {
+  background-image: url("./images/the-strange/Cypher-System-Rulebook-05-Martin-DeDiego.webp");
+  color: var(--thestrange);
+  background-position: center;
+}
+
+.thestrange input[name="name"] {
+  font: 2.3em "Extraction";
+  height: 35px;
+  text-shadow: -1px 0px 1px var(--thestrange-shadow);
+}
+
+.thestrange input[name="data.basic.tier"] {
+  margin-top: 18px;
+}
+
+.thestrange label.label-basic-info:first-of-type {
+  margin-top: 18px;
+}
+
+.thestrange input,
+.thestrange select {
+  color: var(--thestrange);
+}
+
+.thestrange input:focus {
+  box-shadow: 0 0 5px var(--thestrange-shadow);
+}
+
+.thestrange a:hover {
+  text-shadow: 0 0 8px var(--thestrange-shadow);
+}
+
+.thestrange ::-webkit-scrollbar-thumb {
+  background: var(--thestrange-transparent);
+  border: 1px solid var(--thestrange);
+}
+
+.thestrange h1,
+.thestrange h2 {
+  border-bottom-color: var(--thestrange);
+}
