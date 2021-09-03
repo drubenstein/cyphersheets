@@ -36,13 +36,13 @@
   margin-right: 4px;
 }
 
-/* .custom-cypher-sheet input[name="data.basic.tier"] {
+.custom-cypher-sheet input[name="data.basic.tier"] {
   margin-top: 18px;
 }
 
 .custom-cypher-sheet label.label-basic-info:first-of-type {
   margin-top: 18px;
-} */
+}
 
 .custom-cypher-sheet
   > form

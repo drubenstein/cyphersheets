@@ -1,7 +1,7 @@
 import {CustomCypherSheet} from "./cs-extensions.js";
 
 
-// register godforsaken sheet in module settings
+// register godsofthefall sheet in module settings
 
   export function registerGotFSettings() {
     game.settings.register('cyphersheets', 'godsofthefall', {
@@ -11,11 +11,11 @@ import {CustomCypherSheet} from "./cs-extensions.js";
         scope: 'world',
         config: true,
         hint: 'CYPHER-SHEETS.settings.gods-of-the-fall.Hint',
-    onChange: () => location.reload(),
+        onChange: () => location.reload(),
     })
   }
 
-// create new class extensions for godforsaken sheets => overrides templates
+// create new class extensions for godsofthefall sheets => overrides templates
     
   export class GodsoftheFall extends CustomCypherSheet {
     /** @override */

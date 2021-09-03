@@ -11,11 +11,11 @@ import {CustomCypherSheet} from "./cs-extensions.js";
         scope: 'world',
         config: true,
         hint: 'CYPHER-SHEETS.settings.claim-the-sky.Hint',
-    onChange: () => location.reload(),
+        onChange: () => location.reload(),
     })
   }
 
-// create new class extensions for godforsaken sheets => overrides templates
+// create new class extensions for claimthesky sheets => overrides templates
     
   export class ClaimtheSky extends CustomCypherSheet {
     /** @override */

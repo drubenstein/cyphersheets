@@ -10,7 +10,7 @@ export function registerNumeneraSettings() {
       scope: 'world',
       config: true,
       hint: 'CYPHER-SHEETS.settings.numenera.Hint',
-  onChange: () => location.reload(),
+      onChange: () => location.reload(),
   })
 }
 

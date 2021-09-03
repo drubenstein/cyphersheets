@@ -12,14 +12,6 @@
   text-shadow: -1px 0px 1px var(--thestrange-shadow);
 }
 
-.thestrange input[name="data.basic.tier"] {
-  margin-top: 18px;
-}
-
-.thestrange label.label-basic-info:first-of-type {
-  margin-top: 18px;
-}
-
 .thestrange input,
 .thestrange select {
   color: var(--thestrange);

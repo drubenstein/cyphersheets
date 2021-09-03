@@ -13,7 +13,7 @@ export function registerOriginalSheetSettings() {
       scope: 'world',
       config: true,
       hint: 'CYPHER-SHEETS.settings.cypher-system.Hint',
-  onChange: () => location.reload(),
+      onChange: () => location.reload(),
   })
 }
 

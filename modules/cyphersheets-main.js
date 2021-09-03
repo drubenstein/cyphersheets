@@ -6,6 +6,9 @@ import {registerGotFSettings, GodsoftheFall, GodsoftheFallAnimated} from "./gods
 import {registerClaimtheSkySettings, ClaimtheSky, ClaimtheSkyAnimated} from "./claimthesky.js";
 import {registerPredationSettings, Predation, PredationAnimated} from "./predation.js";
 import {registerTheStrangeSettings, TheStrange, TheStrangeAnimated} from "./thestrange.js";
+import {registerStayAliveSettings, StayAlive, StayAliveAnimated} from "./stayalive.js";
+import {registerStarsAreFireSettings, TheStarsAreFire, TheStarsAreFireAnimated} from "./starsarefire.js";
+
 
 // a class to hold constants for cyphersheets
 class CypherSheets {
@@ -19,6 +22,8 @@ class CypherSheets {
         GODSOFTHEFALL: 'godsofthefall',
         PREDATION: 'predation',
         THESTRANGE: 'thestrange',
+        STAYALIVE: 'stayalive',
+        STARSAREFIRE: 'starsarefire',
         ORIGINAL: 'originalsheet'
     }
 
@@ -30,6 +35,8 @@ class CypherSheets {
         registerGotFSettings();
         registerPredationSettings();
         registerTheStrangeSettings();
+        registerStayAliveSettings();
+        registerStarsAreFireSettings();
         registerOriginalSheetSettings();
 
         // return pc-sheet template
@@ -73,6 +80,16 @@ Hooks.once('init', () => {
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.THESTRANGE)) {
         Actors.registerSheet("cypher", TheStrange, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", TheStrangeAnimated, {types: ['PC'], makeDefault: false});
+    }
+
+    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.STAYALIVE)) {
+        Actors.registerSheet("cypher", StayAlive, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", StayAliveAnimated, {types: ['PC'], makeDefault: false});
+    }
+
+    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.STARSAREFIRE)) {
+        Actors.registerSheet("cypher", TheStarsAreFire, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", TheStarsAreFireAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.ORIGINAL)) {

@@ -14,14 +14,6 @@
   text-shadow: 0px 4px 5px var(--godforsaken-shadow);
 }
 
-.godforsaken input[name="data.basic.tier"] {
-  margin-top: 18px;
-}
-
-.godforsaken label.label-basic-info:first-of-type {
-  margin-top: 18px;
-}
-
 .godforsaken input,
 .godforsaken select {
   color: var(--godforsaken);

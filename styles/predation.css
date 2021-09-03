@@ -12,14 +12,6 @@
   text-shadow: -1px 0px 1px var(--predation-shadow);
 }
 
-.predation input[name="data.basic.tier"] {
-  margin-top: 18px;
-}
-
-.predation label.label-basic-info:first-of-type {
-  margin-top: 18px;
-}
-
 .predation input,
 .predation select {
   color: var(--predation);

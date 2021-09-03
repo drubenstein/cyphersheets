@@ -11,11 +11,11 @@ import {CustomCypherSheet} from "./cs-extensions.js";
         scope: 'world',
         config: true,
         hint: 'CYPHER-SHEETS.settings.predation.Hint',
-    onChange: () => location.reload(),
+        onChange: () => location.reload(),
     })
   }
 
-// create new class extensions for godforsaken sheets => overrides templates
+// create new class extensions for predation sheets => overrides templates
     
   export class Predation extends CustomCypherSheet {
     /** @override */

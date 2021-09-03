@@ -26,3 +26,15 @@
   font-family: "Extraction";
   src: url("./fonts/extraction.ttf") format("truetype");
 }
+
+/* stayalive font */
+@font-face {
+  font-family: "Swamp";
+  src: url("./fonts/ilits.ttf") format("truetype");
+}
+
+/* starsarefire font */
+@font-face {
+  font-family: "Star Jedi Outline";
+  src: url("./fonts/Starjout.ttf") format("truetype");
+}

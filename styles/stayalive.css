@@ -1,0 +1,38 @@
+/* stayalive */
+
+.stayalive {
+  background-image: url("./images/stay-alive/Cypher-System-Rulebook-03-Martin-DeDiego.webp");
+  color: var(--stayalive);
+  background-position: 75%;
+}
+
+.stayalive input[name="name"] {
+  font: 2.7em "Swamp";
+  height: 40px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  text-shadow: none;
+}
+
+.stayalive input,
+.stayalive select {
+  color: var(--stayalive);
+}
+
+.stayalive input:focus {
+  box-shadow: 0 0 5px var(--stayalive-shadow);
+}
+
+.stayalive a:hover {
+  text-shadow: 0 0 8px var(--stayalive-shadow);
+}
+
+.stayalive ::-webkit-scrollbar-thumb {
+  background: var(--stayalive-transparent);
+  border: 1px solid var(--stayalive);
+}
+
+.stayalive h1,
+.stayalive h2 {
+  border-bottom-color: var(--stayalive);
+}

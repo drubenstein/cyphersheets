@@ -1,7 +1,7 @@
 import {CustomCypherSheet} from "./cs-extensions.js";
 
 
-// register predation sheet in module settings
+// register thestrange sheet in module settings
 
   export function registerTheStrangeSettings() {
     game.settings.register('cyphersheets', 'thestrange', {
@@ -11,11 +11,11 @@ import {CustomCypherSheet} from "./cs-extensions.js";
         scope: 'world',
         config: true,
         hint: 'CYPHER-SHEETS.settings.the-strange.Hint',
-    onChange: () => location.reload(),
+        onChange: () => location.reload(),
     })
   }
 
-// create new class extensions for godforsaken sheets => overrides templates
+// create new class extensions for thestrange sheets => overrides templates
     
   export class TheStrange extends CustomCypherSheet {
     /** @override */

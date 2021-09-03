@@ -1,0 +1,38 @@
+/* starsarefire */
+
+.starsarefire {
+  background-image: url("./images/the-stars-are-fire/The-Stars-Are-Fire-03-Katerina-Ladon.webp");
+  color: var(--starsarefire);
+  background-position: center;
+}
+
+.starsarefire input[name="name"] {
+  font: 2.5em "Star Jedi Outline";
+  height: 35px;
+  text-transform: lowercase;
+  margin-top: 1px;
+  text-shadow: 0px 4px 5px var(--starsarefire-shadow);
+}
+
+.starsarefire input,
+.starsarefire select {
+  color: var(--starsarefire);
+}
+
+.starsarefire input:focus {
+  box-shadow: 0 0 5px var(--starsarefire-shadow);
+}
+
+.starsarefire a:hover {
+  text-shadow: 0 0 8px var(--starsarefire-shadow);
+}
+
+.starsarefire ::-webkit-scrollbar-thumb {
+  background: var(--starsarefire-transparent);
+  border: 1px solid var(--starsarefire);
+}
+
+.starsarefire h1,
+.starsarefire h2 {
+  border-bottom-color: var(--starsarefire);
+}
