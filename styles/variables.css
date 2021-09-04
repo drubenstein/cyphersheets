@@ -1,32 +1,38 @@
 /* COLOR VARIABLES */
 
 :root {
-  --numenera-archer: #046c7d;
-  --numenera-archer-shadow: #b4dcec;
+  --numenera-archer-name: #046c7d;
+  --numenera-archer-name-shadow: #b4dcec;
   --numenera-archer-transparent: #046c7d80;
-  --numenera-archer-font: #011714;
+  --numenera-archer: #011714;
+  --numenera-archer-shadow: #7d046c;
   --numenera-explorer: #321b40;
-  --numenera-explorer-shadow: #9980af;
+  --numenera-explorer-name-shadow: #9980af;
+  --numenera-explorer-shadow: #1b4032;
   --numenera-explorer-transparent: #321b4080;
   --godforsaken: #002f23;
-  --godforsaken-shadow: #6f9485;
+  --godforsaken-name-shadow: #6f9485;
+  --godforsaken-shadow: #2f000c;
   --godforsaken-transparent: #002f2380;
   --godsofthefall: #292516;
-  --godsofthefall-shadow: #574e2d;
+  --godsofthefall-name-shadow: #574e2d;
+  --godsofthefall-shadow: #161a29;
   --godsofthefall-transparent: #29251680;
   --claimthesky: #800000;
-  --claimthesky-shadow: #ffe154;
+  --claimthesky-name-shadow: #ffe154;
+  --claimthesky-shadow: #008080;
   --claimthesky-transparent: #80000080;
   --predation: #26402a;
   --predation-shadow: #925b4a;
   --predation-transparent: #26402a80;
   --thestrange: #2b253e;
-  --thestrange-shadow: #ffbc75;
+  --thestrange-name-shadow: #ffbc75;
+  --thestrange-shadow: #383e25;
   --thestrange-transparent: #2b253e80;
   --stayalive: #660000;
   --stayalive-shadow: #000000;
   --stayalive-transparent: #66000080;
   --starsarefire: #31397c;
-  --starsarefire-shadow: #ffee94;
+  --starsarefire-shadow: #7c3139;
   --starsarefire-transparent: #31397c80;
 }

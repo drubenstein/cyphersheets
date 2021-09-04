@@ -11,17 +11,17 @@
 .archer {
   background-image: url("./images/numenera/fantasy-2770468.webp");
   background-position: 30%;
-  color: var(--numenera-archer-font);
+  color: var(--numenera-archer);
 }
 
 .archer input,
 .archer input {
-  color: var(--numenera-archer-font);
+  color: var(--numenera-archer);
 }
 
 .archer input[name="name"] {
-  color: var(--numenera-archer);
-  text-shadow: 0px 4px 5px var(--numenera-archer-shadow);
+  color: var(--numenera-archer-name);
+  text-shadow: 0px 4px 5px var(--numenera-archer-name-shadow);
 }
 
 .archer input:focus {
@@ -39,7 +39,7 @@
 
 .archer h1,
 .archer h2 {
-  border-bottom-color: var(--numenera-archer);
+  border-bottom-color: var(--numenera-archer-name);
 }
 
 /* numenera explorer */
@@ -56,7 +56,7 @@
 }
 
 .explorer input[name="name"] {
-  text-shadow: 0px 4px 5px var(--numenera-explorer-shadow);
+  text-shadow: 0px 4px 5px var(--numenera-explorer-name-shadow);
 }
 
 .explorer input:focus {

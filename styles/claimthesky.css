@@ -10,7 +10,7 @@
   font: 2.1em "Flames";
   height: 37px;
   margin-top: 3px;
-  text-shadow: 0px 1px 1px var(--claimthesky-shadow);
+  text-shadow: 0px 1px 1px var(--claimthesky-name-shadow);
 }
 
 .claimthesky input,
