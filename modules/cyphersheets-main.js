@@ -9,8 +9,8 @@ import {registerTheStrangeSettings, TheStrange, TheStrangeAnimated} from "./thes
 import {registerStayAliveSettings, StayAlive, StayAliveAnimated} from "./stayalive.js";
 import {registerStarsAreFireSettings, TheStarsAreFire, TheStarsAreFireAnimated} from "./starsarefire.js";
 import {registerPtolusSettings, Ptolus, PtolusAnimated} from "./ptolus.js";
+import {registerUnmaskedSettings, Unmasked, UnmaskedAnimated} from "./unmasked.js";
 import {registerWaamhSettings, WeAreAllMadHere, WeAreAllMadHereAnimated} from "./waamh.js";
-
 
 // a class to hold constants for cyphersheets
 class CypherSheets {
@@ -27,6 +27,7 @@ class CypherSheets {
         STAYALIVE: 'stayalive',
         STARSAREFIRE: 'starsarefire',
         PTOLUS: 'ptolus',
+        UNMASKED: 'unmasked',
         WAAMH: 'waamh',
         ORIGINAL: 'originalsheet'
     }
@@ -42,6 +43,7 @@ class CypherSheets {
         registerStayAliveSettings();
         registerStarsAreFireSettings();
         registerPtolusSettings();
+        registerUnmaskedSettings();
         registerWaamhSettings();
         registerOriginalSheetSettings();
 
@@ -101,6 +103,11 @@ Hooks.once('init', () => {
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.PTOLUS)) {
         Actors.registerSheet("cypher", Ptolus, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", PtolusAnimated, {types: ['PC'], makeDefault: false});
+    }
+
+    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.UNMASKED)) {
+        Actors.registerSheet("cypher", Unmasked, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", UnmaskedAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.WAAMH)) {

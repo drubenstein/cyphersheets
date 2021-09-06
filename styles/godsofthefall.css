@@ -10,8 +10,8 @@
   font: 3em "Endoralt";
   letter-spacing: 2px;
   height: 42px;
-  margin-top: 3px;
-  text-shadow: 0px 4px 5px var(--godsofthefall-name-shadow);
+  margin-top: -7px;
+  text-shadow: 0px 2px 4px var(--godsofthefall-name-shadow);
 }
 
 .godsofthefall input,

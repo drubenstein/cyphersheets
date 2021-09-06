@@ -7,10 +7,10 @@
 }
 
 .starsarefire input[name="name"] {
-  font: 2.1em "Star Jedi Outline";
+  font: 2em "Star Jedi Outline";
   height: 35px;
   text-transform: lowercase;
-  margin-top: 1px;
+  margin-top: -3px;
   text-shadow: none;
 }
 

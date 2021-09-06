@@ -7,7 +7,7 @@
 }
 
 .predation input[name="name"] {
-  font: 2.3em "Extraction";
+  font: 2.2em "Extraction";
   height: 35px;
   text-shadow: -1px 0px 1px var(--predation-shadow);
 }

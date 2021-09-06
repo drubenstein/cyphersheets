@@ -9,7 +9,7 @@
 .claimthesky input[name="name"] {
   font: 2em "Flames";
   height: 37px;
-  margin-top: 3px;
+  letter-spacing: -1.5px;
   text-shadow: 0px 1px 1px var(--claimthesky-name-shadow);
 }
 

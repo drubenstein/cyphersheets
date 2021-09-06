@@ -71,9 +71,9 @@
 }
 
 .breath {
-  animation: breathIn 15s ease-in-out infinite alternate;
+  animation: breathIn 15s linear infinite alternate;
 }
 
 .breath > form {
-  animation: breathOut 15s ease-in-out infinite alternate;
+  animation: breathOut 15s linear infinite alternate;
 }

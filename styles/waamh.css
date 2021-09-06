@@ -7,8 +7,10 @@
 }
 
 .waamh input[name="name"] {
-  font: 2.2em "Cardinal";
+  font: 2em "Cardinal";
   height: 37px;
+  letter-spacing: -0.5px;
+  margin-top: 5px;
   text-shadow: -1px -1px 1px var(--waamh-name-shadow);
 }
 

@@ -7,7 +7,7 @@
 }
 
 .ptolus input[name="name"] {
-  font: 2.5em "Prince Valiant";
+  font: 2.3em "Prince Valiant";
   height: 37px;
   text-shadow: 1px 1px 1px var(--ptolus-name-shadow);
 }

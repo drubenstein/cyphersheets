@@ -50,3 +50,9 @@
   font-family: "Cardinal";
   src: url("./fonts/Cardinal.ttf") format("truetype");
 }
+
+/* unmasked font */
+@font-face {
+  font-family: "Thunderman";
+  src: url("./fonts/Thunderman.ttf") format("truetype");
+}
