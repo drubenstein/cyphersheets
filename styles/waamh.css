@@ -1,0 +1,36 @@
+/* waamh */
+
+.waamh {
+  background-image: url("./images/waamh/We-Are-All-Mad-Here-17-Nino-Vecia.webp");
+  color: var(--waamh);
+  background-position: center;
+}
+
+.waamh input[name="name"] {
+  font: 2.2em "Cardinal";
+  height: 37px;
+  text-shadow: -1px -1px 1px var(--waamh-name-shadow);
+}
+
+.waamh input,
+.waamh select {
+  color: var(--waamh);
+}
+
+.waamh input:focus {
+  box-shadow: 0 0 5px var(--waamh-shadow);
+}
+
+.waamh a:hover {
+  text-shadow: 0 0 8px var(--waamh-shadow);
+}
+
+.waamh ::-webkit-scrollbar-thumb {
+  background: var(--waamh-transparent);
+  border: 1px solid var(--waamh);
+}
+
+.waamh h1,
+.waamh h2 {
+  border-bottom-color: var(--waamh);
+}

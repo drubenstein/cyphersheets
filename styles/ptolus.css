@@ -7,11 +7,9 @@
 }
 
 .ptolus input[name="name"] {
-  font: 3em "Endoralt";
-  letter-spacing: 2px;
-  height: 42px;
-  margin-top: 3px;
-  text-shadow: 0px 4px 5px var(--ptolus-shadow);
+  font: 2.5em "Prince Valiant";
+  height: 37px;
+  text-shadow: 1px 1px 1px var(--ptolus-name-shadow);
 }
 
 .ptolus input,

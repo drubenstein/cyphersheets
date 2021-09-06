@@ -3,7 +3,7 @@
     "title": "Cypher System Custom Sheets",
     "description": "Replaces the default Cypher System PC sheet (created by mrkwnzl) with alternate styles based on MCG settings and other generic themes.",
     "author": "gonzaPaEst",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "minimumCoreVersion": "0.8.9",
     "compatibleCoreVersion": "0.8.9",
     "system": "cyphersystem",
@@ -29,7 +29,8 @@
         "styles/thestrange.css",
         "styles/stayalive.css",
         "styles/starsarefire.css",
-        "styles/ptolus.css"
+        "styles/ptolus.css",
+        "styles/waamh.css"
       ],
     "languages": [
         {

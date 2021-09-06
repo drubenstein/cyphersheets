@@ -38,3 +38,15 @@
   font-family: "Star Jedi Outline";
   src: url("./fonts/Starjout.ttf") format("truetype");
 }
+
+/* ptolus font */
+@font-face {
+  font-family: "Prince Valiant";
+  src: url("./fonts/Prince-Valiant.ttf") format("truetype");
+}
+
+/* waamh font */
+@font-face {
+  font-family: "Cardinal";
+  src: url("./fonts/Cardinal.ttf") format("truetype");
+}
