@@ -23,9 +23,7 @@ export class CustomCypherSheet extends CypherActorSheetPC {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      width: 700,
-      // closeOnSubmit: true, // do not close when submitted
-      // submitOnChange: false // submit when any input changes
+      width: 700
     });
   }
 }
