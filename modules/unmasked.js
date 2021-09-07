@@ -1,20 +1,5 @@
 import {CustomCypherSheet} from "./cs-extensions.js";
 
-
-// register unmasked sheet in module settings
-
-  export function registerUnmaskedSettings() {
-    game.settings.register('cyphersheets', 'unmasked', {
-        name: 'CYPHER-SHEETS.settings.unmasked.Name',
-        default: true,
-        type: Boolean,
-        scope: 'world',
-        config: true,
-        hint: 'CYPHER-SHEETS.settings.unmasked.Hint',
-        onChange: () => location.reload(),
-    })
-  }
-
 // create new class extensions for unmasked sheets => overrides templates
     
   export class Unmasked extends CustomCypherSheet {

@@ -1,20 +1,5 @@
 import {CustomCypherSheet} from "./cs-extensions.js";
 
-
-// register godsofthefall sheet in module settings
-
-  export function registerGotFSettings() {
-    game.settings.register('cyphersheets', 'godsofthefall', {
-        name: 'CYPHER-SHEETS.settings.gods-of-the-fall.Name',
-        default: true,
-        type: Boolean,
-        scope: 'world',
-        config: true,
-        hint: 'CYPHER-SHEETS.settings.gods-of-the-fall.Hint',
-        onChange: () => location.reload(),
-    })
-  }
-
 // create new class extensions for godsofthefall sheets => overrides templates
     
   export class GodsoftheFall extends CustomCypherSheet {

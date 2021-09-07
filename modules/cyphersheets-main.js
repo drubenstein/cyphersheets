@@ -1,16 +1,17 @@
 import {CypherActorSheetPC} from "../../../systems/cyphersystem/module/actor/pc-sheet.js";
-import {registerNumeneraSettings, NumeneraExplorer, NumeneraExplorerAnimated, NumeneraArcher, NumeneraArcherAnimated} from "./numenera.js";
-import {registerOriginalSheetSettings, preloadHandlebarsTemplates} from "./cs-extensions.js";
-import {registerGodforsakenSettings, Godforsaken, GodforsakenAnimated} from "./godforsaken.js";
-import {registerGotFSettings, GodsoftheFall, GodsoftheFallAnimated} from "./godsofthefall.js";
-import {registerClaimtheSkySettings, ClaimtheSky, ClaimtheSkyAnimated} from "./claimthesky.js";
-import {registerPredationSettings, Predation, PredationAnimated} from "./predation.js";
-import {registerTheStrangeSettings, TheStrange, TheStrangeAnimated} from "./thestrange.js";
-import {registerStayAliveSettings, StayAlive, StayAliveAnimated} from "./stayalive.js";
-import {registerStarsAreFireSettings, TheStarsAreFire, TheStarsAreFireAnimated} from "./starsarefire.js";
-import {registerPtolusSettings, Ptolus, PtolusAnimated} from "./ptolus.js";
-import {registerUnmaskedSettings, Unmasked, UnmaskedAnimated} from "./unmasked.js";
-import {registerWaamhSettings, WeAreAllMadHere, WeAreAllMadHereAnimated} from "./waamh.js";
+import {registerModuleSettings} from "./settings.js";
+import {NumeneraExplorer, NumeneraExplorerAnimated, NumeneraArcher, NumeneraArcherAnimated} from "./numenera.js";
+import {preloadHandlebarsTemplates} from "./cs-extensions.js";
+import {Godforsaken, GodforsakenAnimated} from "./godforsaken.js";
+import {GodsoftheFall, GodsoftheFallAnimated} from "./godsofthefall.js";
+import {ClaimtheSky, ClaimtheSkyAnimated} from "./claimthesky.js";
+import {Predation, PredationAnimated} from "./predation.js";
+import {TheStrange, TheStrangeAnimated} from "./thestrange.js";
+import {StayAlive, StayAliveAnimated} from "./stayalive.js";
+import {TheStarsAreFire, TheStarsAreFireAnimated} from "./thestarsarefire.js";
+import {Ptolus, PtolusAnimated} from "./ptolus.js";
+import {Unmasked, UnmaskedAnimated} from "./unmasked.js";
+import {WeAreAllMadHere, WeAreAllMadHereAnimated} from "./waamh.js";
 
 // a class to hold constants for cyphersheets
 class CypherSheets {
@@ -34,18 +35,7 @@ class CypherSheets {
 
     static initialize() {
         // register cypher sheets settings
-        registerNumeneraSettings();
-        registerClaimtheSkySettings();
-        registerGodforsakenSettings();
-        registerGotFSettings();
-        registerPredationSettings();
-        registerTheStrangeSettings();
-        registerStayAliveSettings();
-        registerStarsAreFireSettings();
-        registerPtolusSettings();
-        registerUnmaskedSettings();
-        registerWaamhSettings();
-        registerOriginalSheetSettings();
+        registerModuleSettings();
 
         // return pc-sheet template
         return preloadHandlebarsTemplates();   
@@ -120,8 +110,4 @@ Hooks.once('init', () => {
     }
 
     // TODO = prevent sheet settings from saving without one selected
-    // if (!game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.NUMENERA) && !game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GODFORSAKEN)) {
-    //         Actors.registerSheet("cypher", CypherActorSheetPC, {types: ['PC'], makeDefault: false});
-    //         (game.settings.set(CypherSheets.ID, CypherSheets.SETTINGS.ORIGINAL, true));
-    // }
 });

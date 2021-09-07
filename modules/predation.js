@@ -1,20 +1,5 @@
 import {CustomCypherSheet} from "./cs-extensions.js";
 
-
-// register predation sheet in module settings
-
-  export function registerPredationSettings() {
-    game.settings.register('cyphersheets', 'predation', {
-        name: 'CYPHER-SHEETS.settings.predation.Name',
-        default: true,
-        type: Boolean,
-        scope: 'world',
-        config: true,
-        hint: 'CYPHER-SHEETS.settings.predation.Hint',
-        onChange: () => location.reload(),
-    })
-  }
-
 // create new class extensions for predation sheets => overrides templates
     
   export class Predation extends CustomCypherSheet {

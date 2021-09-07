@@ -2,21 +2,6 @@
 
 import {CypherActorSheetPC} from "../../../systems/cyphersystem/module/actor/pc-sheet.js";
 
-
-// register original sheet in module settings
-
-export function registerOriginalSheetSettings() {
-  game.settings.register('cyphersheets', 'originalsheet', {
-      name: 'CYPHER-SHEETS.settings.cypher-system.Name',
-      default: false,
-      type: Boolean,
-      scope: 'world',
-      config: true,
-      hint: 'CYPHER-SHEETS.settings.cypher-system.Hint',
-      onChange: () => location.reload(),
-  })
-}
-
 // create new class extension from original cyphersystem sheet => overrides width
 
 export class CustomCypherSheet extends CypherActorSheetPC {
