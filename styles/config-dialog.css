@@ -7,18 +7,56 @@
 
 .cypher-sheets-form input:hover,
 .cypher-sheets-form label:hover,
-.cypher-sheets-form button:hover {
+button[data-key="cyphersheets.cyphersheetsconfig"] i:hover,
+button[data-key="cyphersheets.cyphersheetsconfig"] label:hover {
   cursor: pointer;
 }
 
-.cypher-sheets-form button {
+.cypher-sheets-form button,
+button[data-key="cyphersheets.cyphersheetsconfig"] {
   transition: color 0.8s, background 1s, border 1s;
-  margin: 0 5px;
+  margin: 0 2px;
 }
 
-.cypher-sheets-form button:hover {
+.cypher-sheets-form button:hover,
+button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
   box-shadow: none;
   color: #d4d3cb;
   background: #343534;
   border: 2px groove #2c2a2a;
+  cursor: pointer;
+}
+
+.cypher-sheets-form section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-height: fit-content;
+}
+
+.cypher-sheets-form .sheet-checkboxes {
+  grid-column: 1 / 4;
+}
+
+/* gets rid of blue border style from nice-cypher-add-ons */
+.cypher-sheets-form :checked + label {
+  border: none;
+}
+
+#form-img {
+  grid-column: 4 / 6;
+  margin: 0;
+}
+
+#form-img img {
+  box-shadow: none;
+  border: none;
+  border-radius: none;
+  width: 100%;
+  height: auto;
+}
+
+#form-img figcaption {
+  font-size: 0.7em;
+  text-align: left;
+  padding-left: 60px;
 }

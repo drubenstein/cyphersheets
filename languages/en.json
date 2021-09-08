@@ -10,55 +10,55 @@
       },
       "claim-the-sky": {
         "Name": "Claim the Sky PC sheets",
-        "Hint": "Make  Claim the Sky character sheets available in your world."
+        "Hint": "Make Claim the Sky character sheets available."
       },
       "cypher-system": {
         "Name": "Original Cypher System PC sheet",
-        "Hint": "Make the original CypherActorSheetPC (by mrkwnzl) available in your world."
+        "Hint": "Make the original CypherActorSheetPC (by mrkwnzl) available."
       },
-      "generic": {
-        "Name": "Generic PC sheets",
-        "Hint": "Make available the following character sheets: Modern, Post-Apocalyptic, Sci-Fi, and Western."
+      "genre": {
+        "Name": "Genre PC sheets",
+        "Hint": "Modern, Post-Apocalyptic, Sci-Fi, and Western."
       },
       "godforsaken": {
         "Name": "Godforsaken PC sheets",
-        "Hint": "Make Godforsaken character sheets available in your world."
+        "Hint": "Make Godforsaken character sheets available."
       },
       "gods-of-the-fall": {
         "Name": "Gods of the Fall PC sheets",
-        "Hint": "Make Gods of the Fall character sheets available in your world."
+        "Hint": "Make Gods of the Fall character sheets available."
       },
       "numenera": {
         "Name": "Numenera PC sheets",
-        "Hint": "Make Numenera character sheets available in your world."
+        "Hint": "Make Numenera character sheets available."
       },
       "predation": {
         "Name": "Predation PC sheets",
-        "Hint": "Make Predation character sheets available in your world."
+        "Hint": "Make Predation character sheets available."
       },
       "ptolus": {
         "Name": "Ptolus PC sheets",
-        "Hint": "Make Ptolus character sheets available in your world."
+        "Hint": "Make Ptolus character sheets available."
       },
       "stay-alive": {
         "Name": "Stay Alive! PC sheets",
-        "Hint": "Make Stay Alive! character sheets available in your world."
+        "Hint": "Make Stay Alive! character sheets available."
       },
       "the-stars-are-fire": {
         "Name": "The Stars Are Fire PC sheets",
-        "Hint": "Make The Stars Are Fire character sheets available in your world."
+        "Hint": "Make The Stars Are Fire character sheets available."
       },
       "the-strange": {
         "Name": "The Strange PC sheets",
-        "Hint": "Make The Strange character sheets available in your world."
+        "Hint": "Make The Strange character sheets available."
       },
       "unmasked": {
         "Name": "Unmasked PC sheets",
-        "Hint": "Make Unmasked character sheets available in your world."
+        "Hint": "Make Unmasked character sheets available."
       },
       "waamh": {
         "Name": "We Are All Mad Here PC sheets",
-        "Hint": "Make We Are All Mad Here character sheets available in your world."
+        "Hint": "Make We Are All Mad Here character sheets available."
       }
     }
   }

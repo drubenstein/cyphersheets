@@ -85,10 +85,10 @@ export class CypherSheetsConfigDialog extends FormApplication {
         const defaults = super.defaultOptions;
 
         const overrides = {
-            width: 500,
+            width: 600,
             height: "auto",
             id: "cypher-sheets-config",
-            template: "modules/cyphersheets/templates/cypher-sheets-config.html",
+            template: "modules/cyphersheets/templates/config-dialog.html",
             title: "Cypher System Custom Sheets",
             userId: game.userId,
             closeOnSubmit: true
