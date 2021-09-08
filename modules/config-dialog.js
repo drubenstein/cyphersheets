@@ -1,5 +1,7 @@
+// bring CypherSheets class to use constants
 import {CypherSheets} from "./cyphersheets-main.js";
 
+// a class to set and get setting values
 class SettingsForm {
 
     static getUseNumeneraSheets(){
@@ -80,6 +82,8 @@ class SettingsForm {
     }
 };
 
+// a form to select the custom sheets, in lieu of doing so in the settings
+
 export class CypherSheetsConfigDialog extends FormApplication {
     static get defaultOptions() {
         const defaults = super.defaultOptions;
@@ -100,6 +104,7 @@ export class CypherSheetsConfigDialog extends FormApplication {
         return mergedOptions;
     }
 
+    // form data 
     getData(options) {
         let data;
         if (this.reset) {
@@ -135,6 +140,7 @@ export class CypherSheetsConfigDialog extends FormApplication {
         return data
     }
 
+    // resets values for custom sheet settings
     activateListeners(html) {
         super.activateListeners(html);
         html.find('button[name="reset"]').click(this.onReset.bind(this));
@@ -146,6 +152,7 @@ export class CypherSheetsConfigDialog extends FormApplication {
         this.render();
     }
 
+    // gets data from HTML form
     async _updateObject(event, formData) {
 
         SettingsForm.setUseNumeneraSheets(formData.useNumeneraSheets);

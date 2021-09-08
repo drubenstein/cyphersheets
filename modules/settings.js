@@ -1,6 +1,7 @@
 import {CypherSheetsConfigDialog} from './config-dialog.js';
 import {CypherSheets} from "./cyphersheets-main.js";
 
+// registers every custom sheet and the options to select them
 export const registerModuleSettings = function() {
     
     game.settings.registerMenu(CypherSheets.ID, CypherSheets.SETTINGS.CYPHERSHEETSCONFIG, {

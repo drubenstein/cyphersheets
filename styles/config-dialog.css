@@ -1,3 +1,5 @@
+/* SETTINGS FORM */
+
 .cypher-sheets-form p.notes > .fas {
   transform: scaleY(-1);
   margin-left: 32px;
@@ -37,11 +39,6 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
   grid-column: 1 / 4;
 }
 
-/* gets rid of blue border style from nice-cypher-add-ons */
-.cypher-sheets-form :checked + label {
-  border: none;
-}
-
 #form-img {
   grid-column: 4 / 6;
   margin: 0;
@@ -59,4 +56,9 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
   font-size: 0.7em;
   text-align: left;
   padding-left: 60px;
+}
+
+/* gets rid of blue border style from nice-cypher-add-ons */
+.cypher-sheets-form :checked + label {
+  border: none;
 }
