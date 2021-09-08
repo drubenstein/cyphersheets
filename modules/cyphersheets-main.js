@@ -14,11 +14,12 @@ import {Unmasked, UnmaskedAnimated} from "./unmasked.js";
 import {WeAreAllMadHere, WeAreAllMadHereAnimated} from "./waamh.js";
 
 // a class to hold constants for cyphersheets
-class CypherSheets {
+export class CypherSheets {
 
     static ID = 'cyphersheets';
 
     static SETTINGS = {
+        CYPHERSHEETSCONFIG: 'cyphersheetsconfig',
         NUMENERA: 'numenera',
         CLAIMTHESKY: 'claimthesky',
         GODFORSAKEN: 'godforsaken',
@@ -75,9 +76,9 @@ Hooks.once('init', () => {
         Actors.registerSheet("cypher", PredationAnimated, {types: ['PC'], makeDefault: false});
     }
 
-    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.THESTRANGE)) {
-        Actors.registerSheet("cypher", TheStrange, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", TheStrangeAnimated, {types: ['PC'], makeDefault: false});
+    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.PTOLUS)) {
+        Actors.registerSheet("cypher", Ptolus, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", PtolusAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.STAYALIVE)) {
@@ -90,9 +91,9 @@ Hooks.once('init', () => {
         Actors.registerSheet("cypher", TheStarsAreFireAnimated, {types: ['PC'], makeDefault: false});
     }
 
-    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.PTOLUS)) {
-        Actors.registerSheet("cypher", Ptolus, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", PtolusAnimated, {types: ['PC'], makeDefault: false});
+    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.THESTRANGE)) {
+        Actors.registerSheet("cypher", TheStrange, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", TheStrangeAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.UNMASKED)) {

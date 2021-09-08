@@ -31,7 +31,8 @@
         "styles/starsarefire.css",
         "styles/ptolus.css",
         "styles/unmasked.css",
-        "styles/waamh.css"
+        "styles/waamh.css",
+        "styles/config-dialog.css"
       ],
     "languages": [
         {

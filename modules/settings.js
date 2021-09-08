@@ -1,138 +1,128 @@
+import {CypherSheetsConfigDialog} from './config-dialog.js';
+import {CypherSheets} from "./cyphersheets-main.js";
+
 export const registerModuleSettings = function() {
     
-    game.settings.register('cyphersheets', 'numenera', {
-        name: game.i18n.localize("CYPHER-SHEETS.settings.numenera.Name"),
+    game.settings.registerMenu(CypherSheets.ID, CypherSheets.SETTINGS.CYPHERSHEETSCONFIG, {
+		name: game.i18n.localize("CYPHER-SHEETS.settings.cypher-sheets.Name"),
+		label: game.i18n.localize("CYPHER-SHEETS.settings.cypher-sheets.Label"),
+		hint: game.i18n.localize("CYPHER-SHEETS.settings.cypher-sheets.Hint"),
+		icon: "fas fa-user-cog",
+		type: CypherSheetsConfigDialog,
+		restricted: false
+	});
+    
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.NUMENERA, {
         default: true,
         type: Boolean,
         scope: 'world',
-        config: true,
-        hint: game.i18n.localize("CYPHER-SHEETS.settings.numenera.Hint"),
+        config: false,
         onChange: () => setTimeout(() => {
             location.reload();
          }, 1000)
     });
 
-    game.settings.register('cyphersheets', 'claimthesky', {
-        name: game.i18n.localize("CYPHER-SHEETS.settings.claim-the-sky.Name"),
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.CLAIMTHESKY, {
         default: true,
         type: Boolean,
         scope: 'world',
-        config: true,
-        hint: game.i18n.localize("CYPHER-SHEETS.settings.claim-the-sky.Hint"),
+        config: false,
         onChange: () => setTimeout(() => {
             location.reload();
          }, 1000)
     });
 
-    game.settings.register('cyphersheets', 'godforsaken', {
-        name: game.i18n.localize("CYPHER-SHEETS.settings.godforsaken.Name"),
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.GODFORSAKEN, {
         default: true,
         type: Boolean,
         scope: 'world',
-        config: true,
-        hint: game.i18n.localize("CYPHER-SHEETS.settings.godforsaken.Hint"),
+        config: false,
         onChange: () => setTimeout(() => {
             location.reload();
          }, 1000)
     });
 
-    game.settings.register('cyphersheets', 'godsofthefall', {
-        name: game.i18n.localize("CYPHER-SHEETS.settings.gods-of-the-fall.Name"),
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.GODSOFTHEFALL, {
         default: true,
         type: Boolean,
         scope: 'world',
-        config: true,
-        hint: game.i18n.localize("CYPHER-SHEETS.settings.gods-of-the-fall.Hint"),
+        config: false,
         onChange: () => setTimeout(() => {
             location.reload();
          }, 1000)
     });
 
-    game.settings.register('cyphersheets', 'predation', {
-        name: game.i18n.localize("CYPHER-SHEETS.settings.predation.Name"),
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.PREDATION, {
         default: true,
         type: Boolean,
         scope: 'world',
-        config: true,
-        hint: game.i18n.localize("CYPHER-SHEETS.settings.predation.Hint"),
+        config: false,
         onChange: () => setTimeout(() => {
             location.reload();
          }, 1000)
     });
 
-    game.settings.register('cyphersheets', 'ptolus', {
-        name: game.i18n.localize("CYPHER-SHEETS.settings.ptolus.Name"),
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.PTOLUS, {
         default: true,
         type: Boolean,
         scope: 'world',
-        config: true,
-        hint: game.i18n.localize("CYPHER-SHEETS.settings.ptolus.Hint"),
+        config: false,
         onChange: () => setTimeout(() => {
             location.reload();
          }, 1000)
     });
 
-    game.settings.register('cyphersheets', 'stayalive', {
-        name: game.i18n.localize("CYPHER-SHEETS.settings.stay-alive.Name"),
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.STAYALIVE, {
         default: true,
         type: Boolean,
         scope: 'world',
-        config: true,
-        hint: game.i18n.localize("CYPHER-SHEETS.settings.stay-alive.Hint"),
+        config: false,
         onChange: () => setTimeout(() => {
             location.reload();
          }, 1000)
     });
 
-    game.settings.register('cyphersheets', 'starsarefire', {
-        name: game.i18n.localize("CYPHER-SHEETS.settings.the-stars-are-fire.Name"),
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.STARSAREFIRE, {
         default: true,
         type: Boolean,
         scope: 'world',
-        config: true,
-        hint: game.i18n.localize("CYPHER-SHEETS.settings.the-stars-are-fire.Hint"),
+        config: false,
         onChange: () => setTimeout(() => {
             location.reload();
          }, 1000)
     });
 
-    game.settings.register('cyphersheets', 'thestrange', {
-        name: game.i18n.localize("CYPHER-SHEETS.settings.the-strange.Name"),
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.THESTRANGE, {
         default: true,
         type: Boolean,
         scope: 'world',
-        config: true,
-        hint: game.i18n.localize("CYPHER-SHEETS.settings.the-strange.Hint"),
+        config: false,
         onChange: () => setTimeout(() => {
             location.reload();
          }, 1000)
     });
 
-    game.settings.register('cyphersheets', 'unmasked', {
-        name: game.i18n.localize("CYPHER-SHEETS.settings.unmasked.Name"),
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.UNMASKED, {
         default: true,
         type: Boolean,
         scope: 'world',
-        config: true,
-        hint: game.i18n.localize("CYPHER-SHEETS.settings.unmasked.Hint"),
+        config: false,
         onChange: () => setTimeout(() => {
             location.reload();
          }, 1000)
     });
 
-    game.settings.register('cyphersheets', 'waamh', {
-        name: game.i18n.localize("CYPHER-SHEETS.settings.waamh.Name"),
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.WAAMH, {
         default: true,
         type: Boolean,
         scope: 'world',
-        config: true,
-        hint: game.i18n.localize("CYPHER-SHEETS.settings.waamh.Hint"),
+        config: false,
         onChange: () => setTimeout(() => {
             location.reload();
          }, 1000)
     });
 
-    game.settings.register('cyphersheets', 'originalsheet', {
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.ORIGINAL, {
         name: game.i18n.localize("CYPHER-SHEETS.settings.cypher-system.Name"),
         default: false,
         type: Boolean,

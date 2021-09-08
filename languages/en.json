@@ -1,57 +1,64 @@
 {
   "CYPHER-SHEETS": {
     "settings": {
+      "cypher-sheets": {
+        "Name": "Character Sheet Options",
+        "Label": "SELECT CUSTOM SHEETS",
+        "Hint": "Select the custom character sheets you want available in your world.",
+        "Submit": "Save Changes",
+        "Reset": "Reset Defaults"
+      },
       "claim-the-sky": {
         "Name": "Claim the Sky PC sheets",
-        "Hint": "Make  Claim the Sky custom character sheets available in your world."
+        "Hint": "Make  Claim the Sky character sheets available in your world."
       },
       "cypher-system": {
         "Name": "Original Cypher System PC sheet",
-        "Hint": "Make the original CypherActorSheetPC (created by mrkwnzl) available in your world."
+        "Hint": "Make the original CypherActorSheetPC (by mrkwnzl) available in your world."
       },
       "generic": {
         "Name": "Generic PC sheets",
-        "Hint": "Make available the following custom character sheets: Modern, Post-Apocalyptic, Sci-Fi, and Western."
+        "Hint": "Make available the following character sheets: Modern, Post-Apocalyptic, Sci-Fi, and Western."
       },
       "godforsaken": {
         "Name": "Godforsaken PC sheets",
-        "Hint": "Make Godforsaken custom character sheets available in your world."
+        "Hint": "Make Godforsaken character sheets available in your world."
       },
       "gods-of-the-fall": {
         "Name": "Gods of the Fall PC sheets",
-        "Hint": "Make Gods of the Fall custom character sheets available in your world."
+        "Hint": "Make Gods of the Fall character sheets available in your world."
       },
       "numenera": {
         "Name": "Numenera PC sheets",
-        "Hint": "Make Numenera custom character sheets available in your world."
+        "Hint": "Make Numenera character sheets available in your world."
       },
       "predation": {
         "Name": "Predation PC sheets",
-        "Hint": "Make Predation custom character sheets available in your world."
+        "Hint": "Make Predation character sheets available in your world."
       },
       "ptolus": {
         "Name": "Ptolus PC sheets",
-        "Hint": "Make Ptolus custom character sheets available in your world."
+        "Hint": "Make Ptolus character sheets available in your world."
       },
       "stay-alive": {
         "Name": "Stay Alive! PC sheets",
-        "Hint": "Make Stay Alive! custom character sheets available in your world."
+        "Hint": "Make Stay Alive! character sheets available in your world."
       },
       "the-stars-are-fire": {
         "Name": "The Stars Are Fire PC sheets",
-        "Hint": "Make The Stars Are Fire custom character sheets available in your world."
+        "Hint": "Make The Stars Are Fire character sheets available in your world."
       },
       "the-strange": {
         "Name": "The Strange PC sheets",
-        "Hint": "Make The Strange custom character sheets available in your world."
+        "Hint": "Make The Strange character sheets available in your world."
       },
       "unmasked": {
         "Name": "Unmasked PC sheets",
-        "Hint": "Make Unmasked custom character sheets available in your world."
+        "Hint": "Make Unmasked character sheets available in your world."
       },
       "waamh": {
         "Name": "We Are All Mad Here PC sheets",
-        "Hint": "Make We Are All Mad Here custom character sheets available in your world."
+        "Hint": "Make We Are All Mad Here character sheets available in your world."
       }
     }
   }

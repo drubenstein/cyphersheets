@@ -1,0 +1,24 @@
+.cypher-sheets-form p.notes > .fas {
+  transform: scaleY(-1);
+  margin-left: 32px;
+  padding-top: 1px;
+  color: #63625a;
+}
+
+.cypher-sheets-form input:hover,
+.cypher-sheets-form label:hover,
+.cypher-sheets-form button:hover {
+  cursor: pointer;
+}
+
+.cypher-sheets-form button {
+  transition: color 0.8s, background 1s, border 1s;
+  margin: 0 5px;
+}
+
+.cypher-sheets-form button:hover {
+  box-shadow: none;
+  color: #d4d3cb;
+  background: #343534;
+  border: 2px groove #2c2a2a;
+}
