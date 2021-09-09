@@ -42,20 +42,11 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
 #form-img {
   grid-column: 4 / 6;
   margin: 0;
-}
-
-#form-img img {
   box-shadow: none;
   border: none;
   border-radius: none;
   width: 100%;
   height: auto;
-}
-
-#form-img figcaption {
-  font-size: 0.7em;
-  text-align: left;
-  padding-left: 60px;
 }
 
 /* gets rid of blue border style from nice-cypher-add-ons */

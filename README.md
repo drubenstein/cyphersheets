@@ -40,17 +40,17 @@ The following image was used under the [Pixabay License](https://pixabay.com/ser
 
 #### Monte Cook Games
 
-The following images have been used in accordance with MCG's [Fan Use Policy](https://www.montecookgames.com/fan-support/fan-use-policy/). These images and artwork have not been altered. MCG legal notice and the artist name have been displayed in a visible and legible manner.
+The following images were used in accordance with MCG's [Fan Use Policy](https://www.montecookgames.com/fan-support/fan-use-policy/). These images and artwork have not been altered. MCG legal notice (_TM and ©2021 Monte Cook Games, LLC._) and the artist name are displayed in a visible and legible manner.
 
-- "Cypher System Rulebook 11 Robert Pitturru," &copy;2015 Monte Cook Games, LLC.
-- "Godforsaken 50 Angelo Peluso," &copy;2020 Monte Cook Games, LLC.
-- "Gods of the Fall 07 Matt Stawicki," &copy;2016 Monte Cook Games, LLC.
-- "The Stars Are Fire 55 Katerina Ladon," &copy;2019 Monte Cook Games, LLC.
-- "Predation 14 Lie Setiawan," &copy;2017 Monte Cook Games, LLC.
-- "Cypher System Rulebook 4 Matt Stawicki," &copy;2014 Monte Cook Games, LLC.
-- "The Stars Are Fire 03 Katerina Ladon," &copy;2019 Monte Cook Games, LLC.
-- "Cypher System Rulebook 03 Martin DeDiego," &copy;2019 Monte Cook Games, LLC.
-- "Cypher System Rulebook 05 Martin DeDiego," &copy;2019 Monte Cook Games, LLC.
-- "Unmasked 11 Cathy Wilkins," &copy;2017 Monte Cook Games, LLC.
-- "We Are All Mad Here 17 Nino Vecia," &copy;2020 Monte Cook Games, LLC.
-- "Godforsaken 72 Roberto Pitturru," &copy;2020 Monte Cook Games, LLC.
+- "Cypher System Rulebook 11 Robert Pitturru"
+- "Godforsaken 50 Angelo Peluso"
+- "Gods of the Fall 07 Matt Stawicki"
+- "The Stars Are Fire 55 Katerina Ladon"
+- "Predation 14 Lie Setiawan"
+- "Cypher System Rulebook 4 Matt Stawicki"
+- "The Stars Are Fire 03 Katerina Ladon"
+- "Cypher System Rulebook 03 Martin DeDiego"
+- "Cypher System Rulebook 05 Martin DeDiego"
+- "Unmasked 11 Cathy Wilkins"
+- "We Are All Mad Here 17 Nino Vecia"
+- "Godforsaken 72 Roberto Pitturru"
