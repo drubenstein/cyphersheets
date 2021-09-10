@@ -1,6 +1,6 @@
 import {CypherActorSheetPC} from "../../../systems/cyphersystem/module/actor/pc-sheet.js";
 import {registerModuleSettings} from "./settings.js";
-import {NumeneraExplorer, NumeneraExplorerAnimated, NumeneraArcher, NumeneraArcherAnimated} from "./numenera.js";
+import {NumeneraExplorer, NumeneraExplorerAnimated, NumeneraArcher, NumeneraArcherAnimated, NumeneraObelisk, NumeneraObeliskAnimated} from "./numenera.js";
 import {preloadHandlebarsTemplates} from "./cs-extensions.js";
 import {Godforsaken, GodforsakenAnimated} from "./godforsaken.js";
 import {GodsoftheFall, GodsoftheFallAnimated} from "./godsofthefall.js";
@@ -54,6 +54,8 @@ Hooks.once('init', () => {
         Actors.registerSheet("cypher", NumeneraArcherAnimated, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", NumeneraExplorer, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", NumeneraExplorerAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", NumeneraObelisk, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", NumeneraObeliskAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.CLAIMTHESKY)) {

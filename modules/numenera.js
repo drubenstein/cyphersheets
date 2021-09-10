@@ -37,3 +37,22 @@ export class NumeneraArcher extends CustomCypherSheet {
     });
   }
   }
+
+    
+  export class NumeneraObelisk extends CustomCypherSheet {
+    /** @override */
+    static get defaultOptions() {
+      return foundry.utils.mergeObject(super.defaultOptions, {
+        template: "modules/cyphersheets/templates/numenera-obelisk.html"
+      });
+    }
+  }
+  
+  export class NumeneraObeliskAnimated extends CustomCypherSheet {
+  /** @override */
+  static get defaultOptions() {
+    return foundry.utils.mergeObject(super.defaultOptions, {
+      template: "modules/cyphersheets/templates/numenera-obelisk-animated.html"
+    });
+  }
+  }

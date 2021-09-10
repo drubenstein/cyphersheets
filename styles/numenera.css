@@ -75,3 +75,38 @@
 .explorer h2 {
   border-bottom-color: var(--numenera-explorer);
 }
+
+/* numenera obelisk */
+
+.obelisk {
+  background-image: url("./images/numenera/MCG-Numenera-Obelisk-of-the-Water-God.webp");
+  color: var(--numenera-obelisk);
+  background-position: 75%;
+}
+
+.obelisk input,
+.obelisk input {
+  color: var(--numenera-obelisk);
+}
+
+.obelisk input[name="name"] {
+  text-shadow: 0px 4px 5px var(--numenera-obelisk-name-shadow);
+}
+
+.obelisk input:focus {
+  box-shadow: 0 0 5px var(--numenera-obelisk-shadow);
+}
+
+.obelisk a:hover {
+  text-shadow: 0 0 8px var(--numenera-obelisk-shadow);
+}
+
+.obelisk ::-webkit-scrollbar-thumb {
+  background: var(--numenera-obelisk-transparent);
+  border: 1px solid var(--numenera-obelisk);
+}
+
+.obelisk h1,
+.obelisk h2 {
+  border-bottom-color: var(--numenera-obelisk);
+}
