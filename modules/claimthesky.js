@@ -6,7 +6,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: "modules/cyphersheets/templates/claimthesky.html"
+        template: "modules/cyphersheets/templates/claimthesky/claimthesky.html"
       });
     }
   }
@@ -15,7 +15,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: `modules/cyphersheets/templates/claimthesky-animated.html`
+        template: `modules/cyphersheets/templates/claimthesky/claimthesky-animated.html`
       });
     }
   }

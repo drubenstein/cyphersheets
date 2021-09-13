@@ -7,6 +7,15 @@
 
 /* numenera archer */
 
+.archer input[name="name"] {
+  font: 3em "Endoralt";
+  letter-spacing: 2px;
+  height: 42px;
+  margin-top: -7px;
+  color: var(--numenera-archer-name);
+  text-shadow: 0px 4px 5px var(--numenera-archer-name-shadow);
+}
+
 .archer {
   background-image: url("./images/numenera/fantasy-2770468.webp");
   background-position: 30%;
@@ -18,10 +27,10 @@
   color: var(--numenera-archer);
 }
 
-.archer input[name="name"] {
+/* .archer input[name="name"] {
   color: var(--numenera-archer-name);
   text-shadow: 0px 4px 5px var(--numenera-archer-name-shadow);
-}
+} */
 
 .archer input:focus {
   box-shadow: 0 0 5px var(--numenera-archer-shadow);
@@ -43,6 +52,14 @@
 
 /* numenera explorer */
 
+.explorer input[name="name"] {
+  font: 2em "Star Jedi Outline";
+  height: 35px;
+  text-transform: lowercase;
+  margin-top: -3px;
+  text-shadow: none;
+}
+
 .explorer {
   background-image: url("./images/numenera/The-Stars-Are-Fire-55-Katerina-Ladon.webp");
   color: var(--numenera-explorer);
@@ -54,9 +71,9 @@
   color: var(--numenera-explorer);
 }
 
-.explorer input[name="name"] {
+/* .explorer input[name="name"] {
   text-shadow: 0px 4px 5px var(--numenera-explorer-name-shadow);
-}
+} */
 
 .explorer input:focus {
   box-shadow: 0 0 5px var(--numenera-explorer-shadow);

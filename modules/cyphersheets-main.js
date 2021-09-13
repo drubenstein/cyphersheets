@@ -1,14 +1,14 @@
 import {CypherActorSheetPC} from "../../../systems/cyphersystem/module/actor/pc-sheet.js";
 import {registerModuleSettings} from "./settings.js";
-import {NumeneraExplorer, NumeneraExplorerAnimated, NumeneraArcher, NumeneraArcherAnimated, NumeneraObelisk, NumeneraObeliskAnimated} from "./numenera.js";
+import {NumeneraObelisk, NumeneraObeliskAnimated} from "./numenera.js";
 import {preloadHandlebarsTemplates} from "./cs-extensions.js";
-import {Godforsaken, GodforsakenAnimated} from "./godforsaken.js";
+import {GodforsakenArcher, GodforsakenArcherAnimated, GodforsakenCombat, GodforsakenCombatAnimated} from "./godforsaken.js";
 import {GodsoftheFall, GodsoftheFallAnimated} from "./godsofthefall.js";
 import {ClaimtheSky, ClaimtheSkyAnimated} from "./claimthesky.js";
 import {Predation, PredationAnimated} from "./predation.js";
 import {TheStrange, TheStrangeAnimated} from "./thestrange.js";
 import {StayAlive, StayAliveAnimated} from "./stayalive.js";
-import {TheStarsAreFire, TheStarsAreFireAnimated} from "./thestarsarefire.js";
+import {StarsAreFireExplorer, StarsAreFireExplorerAnimated, StarsAreFireStarfighter, StarsAreFireStarfighterAnimated} from "./starsarefire.js";
 import {Ptolus, PtolusAnimated} from "./ptolus.js";
 import {Unmasked, UnmaskedAnimated} from "./unmasked.js";
 import {WeAreAllMadHere, WeAreAllMadHereAnimated} from "./waamh.js";
@@ -50,10 +50,6 @@ Hooks.once('init', () => {
     Actors.unregisterSheet("cypher", CypherActorSheetPC);
     // make cypher sheets available if selected under settings (*selected by default*)
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.NUMENERA)) {
-        Actors.registerSheet("cypher", NumeneraArcher, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", NumeneraArcherAnimated, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", NumeneraExplorer, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", NumeneraExplorerAnimated, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", NumeneraObelisk, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", NumeneraObeliskAnimated, {types: ['PC'], makeDefault: false});
     }
@@ -64,8 +60,10 @@ Hooks.once('init', () => {
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GODFORSAKEN)) {
-        Actors.registerSheet("cypher", Godforsaken, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", GodforsakenAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", GodforsakenArcher, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", GodforsakenArcherAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", GodforsakenCombat, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", GodforsakenCombatAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GODSOFTHEFALL)) {
@@ -89,8 +87,10 @@ Hooks.once('init', () => {
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.STARSAREFIRE)) {
-        Actors.registerSheet("cypher", TheStarsAreFire, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", TheStarsAreFireAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", StarsAreFireExplorer, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", StarsAreFireExplorerAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", StarsAreFireStarfighter, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", StarsAreFireStarfighterAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.THESTRANGE)) {

@@ -6,7 +6,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: "modules/cyphersheets/templates/ptolus.html"
+        template: "modules/cyphersheets/templates/ptolus/ptolus.html"
       });
     }
   }
@@ -15,7 +15,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: `modules/cyphersheets/templates/ptolus-animated.html`
+        template: `modules/cyphersheets/templates/ptolus/ptolus-animated.html`
       });
     }
   }

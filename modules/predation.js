@@ -6,7 +6,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: "modules/cyphersheets/templates/predation.html"
+        template: "modules/cyphersheets/templates/predation/predation.html"
       });
     }
   }
@@ -15,7 +15,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: `modules/cyphersheets/templates/predation-animated.html`
+        template: `modules/cyphersheets/templates/predation/predation-animated.html`
       });
     }
   }

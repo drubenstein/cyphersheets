@@ -6,7 +6,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: "modules/cyphersheets/templates/thestrange.html"
+        template: "modules/cyphersheets/templates/thestrange/thestrange.html"
       });
     }
   }
@@ -15,7 +15,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: `modules/cyphersheets/templates/thestrange-animated.html`
+        template: `modules/cyphersheets/templates/thestrange/thestrange-animated.html`
       });
     }
   }

@@ -6,7 +6,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: "modules/cyphersheets/templates/stayalive.html"
+        template: "modules/cyphersheets/templates/stayalive/stayalive.html"
       });
     }
   }
@@ -15,7 +15,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: `modules/cyphersheets/templates/stayalive-animated.html`
+        template: `modules/cyphersheets/templates/stayalive/stayalive-animated.html`
       });
     }
   }

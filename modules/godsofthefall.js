@@ -6,7 +6,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: "modules/cyphersheets/templates/godsofthefall.html"
+        template: "modules/cyphersheets/templates/godsofthefall/godsofthefall.html"
       });
     }
   }
@@ -15,7 +15,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: `modules/cyphersheets/templates/godsofthefall-animated.html`
+        template: `modules/cyphersheets/templates/godsofthefall/godsofthefall-animated.html`
       });
     }
   }
