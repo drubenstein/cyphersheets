@@ -1,38 +1,40 @@
-/* godsofthefall */
+/* godsofthefall main styles*/
 
-.godsofthefall {
+/* godsofthefall shaper */
+
+.shaper {
   background-image: url("./images/gods-of-the-fall/Gods-of-the-Fall-07-Matt-Stawicki.webp");
-  color: var(--godsofthefall);
+  color: var(--godsofthefall-shaper);
   background-position: right;
 }
 
-.godsofthefall input[name="name"] {
+.shaper input[name="name"] {
   font: 3em "Endoralt";
   letter-spacing: 2px;
   height: 42px;
   margin-top: -7px;
-  text-shadow: 0px 2px 4px var(--godsofthefall-name-shadow);
+  text-shadow: 0px 2px 4px var(--godsofthefall-shaper-name-shadow);
 }
 
-.godsofthefall input,
-.godsofthefall select {
-  color: var(--godsofthefall);
+.shaper input,
+.shaper select {
+  color: var(--godsofthefall-shaper);
 }
 
-.godsofthefall input:focus {
-  box-shadow: 0 0 5px var(--godsofthefall-shadow);
+.shaper input:focus {
+  box-shadow: 0 0 5px var(--godsofthefall-shaper-shadow);
 }
 
-.godsofthefall a:hover {
-  text-shadow: 0 0 8px var(--godsofthefall-shadow);
+.shaper a:hover {
+  text-shadow: 0 0 8px var(--godsofthefall-shaper-shadow);
 }
 
-.godsofthefall ::-webkit-scrollbar-thumb {
-  background: var(--godsofthefall-transparent);
-  border: 1px solid var(--godsofthefall);
+.shaper ::-webkit-scrollbar-thumb {
+  background: var(--godsofthefall-shaper-transparent);
+  border: 1px solid var(--godsofthefall-shaper);
 }
 
-.godsofthefall h1,
-.godsofthefall h2 {
-  border-bottom-color: var(--godsofthefall);
+.shaper h1,
+.shaper h2 {
+  border-bottom-color: var(--godsofthefall-shaper);
 }

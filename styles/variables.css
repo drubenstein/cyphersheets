@@ -1,20 +1,11 @@
 /* COLOR VARIABLES */
 
 :root {
-  --numenera-archer-name: #046c7d;
-  --numenera-archer-name-shadow: #b4dcec;
-  --numenera-archer-transparent: #046c7d80;
-  --numenera-archer: #011714;
-  --numenera-archer-shadow: #035a68;
-  --numenera-explorer: #321b40;
-  --numenera-explorer-name-shadow: #9980af;
-  --numenera-explorer-shadow: #1b4032;
-  --numenera-explorer-transparent: #321b4080;
   --numenera-obelisk: #35315a;
   --numenera-obelisk-name-shadow: #82a290;
   --numenera-obelisk-shadow: #4c5a31;
   --numenera-obelisk-transparent: #35315a80;
-  --godforsaken-archer-name: #046c7d;
+  --godforsaken-archer-name: #036170;
   --godforsaken-archer-name-shadow: #b4dcec;
   --godforsaken-archer-transparent: #046c7d80;
   --godforsaken-archer: #011714;
@@ -23,10 +14,10 @@
   --godforsaken-combat-name-shadow: #6f9485;
   --godforsaken-combat-shadow: #2f000c;
   --godforsaken-combat-transparent: #002f2380;
-  --godsofthefall: #292516;
-  --godsofthefall-name-shadow: #574e2d;
-  --godsofthefall-shadow: #161a29;
-  --godsofthefall-transparent: #29251680;
+  --godsofthefall-shaper: #292516;
+  --godsofthefall-shaper-name-shadow: #574e2d;
+  --godsofthefall-shaper-shadow: #161a29;
+  --godsofthefall-shaper-transparent: #29251680;
   --claimthesky: #800000;
   --claimthesky-name-shadow: #ffe154;
   --claimthesky-shadow: #008080;

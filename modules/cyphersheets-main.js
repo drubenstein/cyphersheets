@@ -3,7 +3,7 @@ import {registerModuleSettings} from "./settings.js";
 import {NumeneraObelisk, NumeneraObeliskAnimated} from "./numenera.js";
 import {preloadHandlebarsTemplates} from "./cs-extensions.js";
 import {GodforsakenArcher, GodforsakenArcherAnimated, GodforsakenCombat, GodforsakenCombatAnimated} from "./godforsaken.js";
-import {GodsoftheFall, GodsoftheFallAnimated} from "./godsofthefall.js";
+import {GodsofFallShaper, GodsofFallShaperAnimated} from "./godsofthefall.js";
 import {ClaimtheSky, ClaimtheSkyAnimated} from "./claimthesky.js";
 import {Predation, PredationAnimated} from "./predation.js";
 import {TheStrange, TheStrangeAnimated} from "./thestrange.js";
@@ -67,8 +67,8 @@ Hooks.once('init', () => {
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GODSOFTHEFALL)) {
-        Actors.registerSheet("cypher", GodsoftheFall, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", GodsoftheFallAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", GodsofFallShaper, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", GodsofFallShaperAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.PREDATION)) {
