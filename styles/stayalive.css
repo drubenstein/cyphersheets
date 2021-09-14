@@ -1,12 +1,12 @@
-/* stayalive */
+/* stayalive surrounded */
 
-.stayalive {
+.surrounded {
   background-image: url("./images/stay-alive/Cypher-System-Rulebook-03-Martin-DeDiego.webp");
-  color: var(--stayalive);
+  color: var(--stayalive-surrounded);
   background-position: 75%;
 }
 
-.stayalive input[name="name"] {
+.surrounded input[name="name"] {
   font: 3em "Swamp";
   height: 50px;
   margin-top: 5px;
@@ -14,25 +14,25 @@
   text-shadow: none;
 }
 
-.stayalive input,
-.stayalive select {
-  color: var(--stayalive);
+.surrounded input,
+.surrounded select {
+  color: var(--stayalive-surrounded);
 }
 
-.stayalive input:focus {
-  box-shadow: 0 0 5px var(--stayalive-shadow);
+.surrounded input:focus {
+  box-shadow: 0 0 5px var(--stayalive-surrounded-shadow);
 }
 
-.stayalive a:hover {
-  text-shadow: 0 0 8px var(--stayalive-shadow);
+.surrounded a:hover {
+  text-shadow: 0 0 8px var(--stayalive-surrounded-shadow);
 }
 
-.stayalive ::-webkit-scrollbar-thumb {
-  background: var(--stayalive-transparent);
-  border: 1px solid var(--stayalive);
+.surrounded ::-webkit-scrollbar-thumb {
+  background: var(--stayalive-surrounded-transparent);
+  border: 1px solid var(--stayalive-surrounded);
 }
 
-.stayalive h1,
-.stayalive h2 {
-  border-bottom-color: var(--stayalive);
+.surrounded h1,
+.surrounded h2 {
+  border-bottom-color: var(--stayalive-surrounded);
 }

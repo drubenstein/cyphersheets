@@ -7,7 +7,7 @@ import {GodsofFallShaper, GodsofFallShaperAnimated} from "./godsofthefall.js";
 import {ClaimtheSky, ClaimtheSkyAnimated} from "./claimthesky.js";
 import {PredationTRex, PredationTRexAnimated} from "./predation.js";
 import {TheStrange, TheStrangeAnimated} from "./thestrange.js";
-import {StayAlive, StayAliveAnimated} from "./stayalive.js";
+import {StayAliveSurrounded, StayAliveSurroundedAnimated} from "./stayalive.js";
 import {StarsAreFireExplorer, StarsAreFireExplorerAnimated, StarsAreFireStarfighter, StarsAreFireStarfighterAnimated} from "./starsarefire.js";
 import {PtolusFighters, PtolusFightersAnimated} from "./ptolus.js";
 import {Unmasked, UnmaskedAnimated} from "./unmasked.js";
@@ -82,8 +82,8 @@ Hooks.once('init', () => {
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.STAYALIVE)) {
-        Actors.registerSheet("cypher", StayAlive, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", StayAliveAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", StayAliveSurrounded, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", StayAliveSurroundedAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.STARSAREFIRE)) {
