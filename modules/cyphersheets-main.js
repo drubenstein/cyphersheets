@@ -9,7 +9,7 @@ import {Predation, PredationAnimated} from "./predation.js";
 import {TheStrange, TheStrangeAnimated} from "./thestrange.js";
 import {StayAlive, StayAliveAnimated} from "./stayalive.js";
 import {StarsAreFireExplorer, StarsAreFireExplorerAnimated, StarsAreFireStarfighter, StarsAreFireStarfighterAnimated} from "./starsarefire.js";
-import {Ptolus, PtolusAnimated} from "./ptolus.js";
+import {PtolusFighters, PtolusFightersAnimated} from "./ptolus.js";
 import {Unmasked, UnmaskedAnimated} from "./unmasked.js";
 import {WeAreAllMadHere, WeAreAllMadHereAnimated} from "./waamh.js";
 
@@ -77,8 +77,8 @@ Hooks.once('init', () => {
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.PTOLUS)) {
-        Actors.registerSheet("cypher", Ptolus, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", PtolusAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", PtolusFighters, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", PtolusFightersAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.STAYALIVE)) {
