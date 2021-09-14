@@ -1,38 +1,38 @@
-/* waamh */
+/* waamh castle */
 
-.waamh {
+.castle {
   background-image: url("./images/waamh/We-Are-All-Mad-Here-17-Nino-Vecia.webp");
-  color: var(--waamh);
+  color: var(--waamh-castle);
   background-position: center;
 }
 
-.waamh input[name="name"] {
+.castle input[name="name"] {
   font: 2em "Cardinal";
   height: 37px;
   letter-spacing: -0.5px;
   margin-top: 5px;
-  text-shadow: -1px -1px 1px var(--waamh-name-shadow);
+  text-shadow: -1px -1px 1px var(--waamh-castle-name-shadow);
 }
 
-.waamh input,
-.waamh select {
-  color: var(--waamh);
+.castle input,
+.castle select {
+  color: var(--waamh-castle);
 }
 
-.waamh input:focus {
-  box-shadow: 0 0 5px var(--waamh-shadow);
+.castle input:focus {
+  box-shadow: 0 0 5px var(--waamh-castle-shadow);
 }
 
-.waamh a:hover {
-  text-shadow: 0 0 8px var(--waamh-shadow);
+.castle a:hover {
+  text-shadow: 0 0 8px var(--waamh-castle-shadow);
 }
 
-.waamh ::-webkit-scrollbar-thumb {
-  background: var(--waamh-transparent);
-  border: 1px solid var(--waamh);
+.castle ::-webkit-scrollbar-thumb {
+  background: var(--waamh-castle-transparent);
+  border: 1px solid var(--waamh-castle);
 }
 
-.waamh h1,
-.waamh h2 {
-  border-bottom-color: var(--waamh);
+.castle h1,
+.castle h2 {
+  border-bottom-color: var(--waamh-castle);
 }
