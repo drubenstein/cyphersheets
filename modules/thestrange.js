@@ -2,20 +2,20 @@ import {CustomCypherSheet} from "./cs-extensions.js";
 
 // create new class extensions for thestrange sheets => overrides templates
     
-  export class TheStrange extends CustomCypherSheet {
+  export class TheStrangeAlien extends CustomCypherSheet {
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: "modules/cyphersheets/templates/thestrange/thestrange.html"
+        template: "modules/cyphersheets/templates/thestrange/thestrange-alien.html"
       });
     }
   }
 
-  export class TheStrangeAnimated extends CustomCypherSheet {
+  export class TheStrangeAlienAnimated extends CustomCypherSheet {
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: `modules/cyphersheets/templates/thestrange/thestrange-animated.html`
+        template: `modules/cyphersheets/templates/thestrange/thestrange-alien-animated.html`
       });
     }
   }

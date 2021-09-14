@@ -6,7 +6,7 @@ import {GodforsakenArcher, GodforsakenArcherAnimated, GodforsakenCombat, Godfors
 import {GodsofFallShaper, GodsofFallShaperAnimated} from "./godsofthefall.js";
 import {ClaimtheSky, ClaimtheSkyAnimated} from "./claimthesky.js";
 import {PredationTRex, PredationTRexAnimated} from "./predation.js";
-import {TheStrange, TheStrangeAnimated} from "./thestrange.js";
+import {TheStrangeAlien, TheStrangeAlienAnimated} from "./thestrange.js";
 import {StayAliveSurrounded, StayAliveSurroundedAnimated} from "./stayalive.js";
 import {StarsAreFireExplorer, StarsAreFireExplorerAnimated, StarsAreFireStarfighter, StarsAreFireStarfighterAnimated} from "./starsarefire.js";
 import {PtolusFighters, PtolusFightersAnimated} from "./ptolus.js";
@@ -94,8 +94,8 @@ Hooks.once('init', () => {
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.THESTRANGE)) {
-        Actors.registerSheet("cypher", TheStrange, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", TheStrangeAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", TheStrangeAlien, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", TheStrangeAlienAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.UNMASKED)) {
