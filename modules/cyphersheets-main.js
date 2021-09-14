@@ -5,7 +5,7 @@ import {preloadHandlebarsTemplates} from "./cs-extensions.js";
 import {GodforsakenArcher, GodforsakenArcherAnimated, GodforsakenCombat, GodforsakenCombatAnimated} from "./godforsaken.js";
 import {GodsofFallShaper, GodsofFallShaperAnimated} from "./godsofthefall.js";
 import {ClaimtheSky, ClaimtheSkyAnimated} from "./claimthesky.js";
-import {Predation, PredationAnimated} from "./predation.js";
+import {PredationTRex, PredationTRexAnimated} from "./predation.js";
 import {TheStrange, TheStrangeAnimated} from "./thestrange.js";
 import {StayAlive, StayAliveAnimated} from "./stayalive.js";
 import {StarsAreFireExplorer, StarsAreFireExplorerAnimated, StarsAreFireStarfighter, StarsAreFireStarfighterAnimated} from "./starsarefire.js";
@@ -72,8 +72,8 @@ Hooks.once('init', () => {
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.PREDATION)) {
-        Actors.registerSheet("cypher", Predation, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", PredationAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", PredationTRex, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", PredationTRexAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.PTOLUS)) {
