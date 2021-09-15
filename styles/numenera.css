@@ -21,3 +21,20 @@
 .obelisk input[name="data.teen.basic.name"] {
   text-shadow: 0px 4px 5px var(--name-shadow);
 }
+
+/* monolith */
+
+.monolith {
+  background-image: url("./images/numenera/MCG-Numenera-Amber-Monolith.webp");
+  background-size: 100% auto;
+  background-position: bottom;
+  --font-color: #5b3c35;
+  --name-shadow: #5b3554;
+  --hover-shadow: #35545b;
+  --scrollbar-background: #5b3c3580;
+}
+
+.monolith input[name="name"],
+.monolith input[name="data.teen.basic.name"] {
+  text-shadow: 0px 1px 1px var(--name-shadow);
+}

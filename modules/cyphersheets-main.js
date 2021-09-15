@@ -1,10 +1,10 @@
 import {CypherActorSheetPC} from "../../../systems/cyphersystem/module/actor/pc-sheet.js";
 import {registerModuleSettings} from "./settings.js";
-import {NumeneraObelisk, NumeneraObeliskAnimated} from "./numenera.js";
+import {NumeneraObelisk, NumeneraObeliskAnimated, NumeneraMonolith, NumeneraMonolithAnimated} from "./numenera.js";
 import {preloadHandlebarsTemplates} from "./cs-extensions.js";
 import {GodforsakenArcher, GodforsakenArcherAnimated, GodforsakenCombat, GodforsakenCombatAnimated} from "./godforsaken.js";
 import {GodsofFallShaper, GodsofFallShaperAnimated} from "./godsofthefall.js";
-import {ClaimtheSky, ClaimtheSkyAnimated} from "./claimthesky.js";
+import {ClaimSkySuperheroes, ClaimSkySuperheroesAnimated} from "./claimthesky.js";
 import {PredationTRex, PredationTRexAnimated} from "./predation.js";
 import {TheStrangeAlien, TheStrangeAlienAnimated} from "./thestrange.js";
 import {StayAliveSurrounded, StayAliveSurroundedAnimated} from "./stayalive.js";
@@ -52,11 +52,13 @@ Hooks.once('init', () => {
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.NUMENERA)) {
         Actors.registerSheet("cypher", NumeneraObelisk, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", NumeneraObeliskAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", NumeneraMonolith, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", NumeneraMonolithAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.CLAIMTHESKY)) {
-        Actors.registerSheet("cypher", ClaimtheSky, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", ClaimtheSkyAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", ClaimSkySuperheroes, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", ClaimSkySuperheroesAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GODFORSAKEN)) {

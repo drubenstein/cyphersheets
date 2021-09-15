@@ -2,20 +2,20 @@ import {CustomCypherSheet} from "./cs-extensions.js";
 
 // create new class extensions for claimthesky sheets => overrides templates
     
-  export class ClaimtheSky extends CustomCypherSheet {
+  export class ClaimSkySuperheroes extends CustomCypherSheet {
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: "modules/cyphersheets/templates/claimthesky/claimthesky.html"
+        template: "modules/cyphersheets/templates/claimthesky/claimthesky-superheroes.html"
       });
     }
   }
 
-  export class ClaimtheSkyAnimated extends CustomCypherSheet {
+  export class ClaimSkySuperheroesAnimated extends CustomCypherSheet {
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: `modules/cyphersheets/templates/claimthesky/claimthesky-animated.html`
+        template: `modules/cyphersheets/templates/claimthesky/claimthesky-superheroes-animated.html`
       });
     }
   }

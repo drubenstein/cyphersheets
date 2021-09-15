@@ -19,3 +19,21 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     });
   }
   }
+
+  export class NumeneraMonolith extends CustomCypherSheet {
+    /** @override */
+    static get defaultOptions() {
+      return foundry.utils.mergeObject(super.defaultOptions, {
+        template: "modules/cyphersheets/templates/numenera/numenera-monolith.html"
+      });
+    }
+  }
+  
+  export class NumeneraMonolithAnimated extends CustomCypherSheet {
+  /** @override */
+  static get defaultOptions() {
+    return foundry.utils.mergeObject(super.defaultOptions, {
+      template: "modules/cyphersheets/templates/numenera/numenera-monolith-animated.html"
+    });
+  }
+  }

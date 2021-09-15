@@ -36,6 +36,15 @@
   }
 }
 
+@keyframes animateBottomTop {
+  from {
+    background-position: bottom;
+  }
+  to {
+    background-position: top;
+  }
+}
+
 .animate-left-right {
   animation: animateLeftRight 150s linear infinite alternate;
 }
@@ -50,6 +59,10 @@
 
 .animate-center-left {
   animation: animateCenterLeft 150s linear infinite alternate;
+}
+
+.animate-bottom-top {
+  animation: animateBottomTop 80s linear infinite alternate;
 }
 
 @keyframes breathIn {
