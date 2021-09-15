@@ -10,7 +10,7 @@ import {TheStrangeAlien, TheStrangeAlienAnimated} from "./thestrange.js";
 import {StayAliveSurrounded, StayAliveSurroundedAnimated} from "./stayalive.js";
 import {StarsAreFireExplorer, StarsAreFireExplorerAnimated, StarsAreFireStarfighter, StarsAreFireStarfighterAnimated} from "./starsarefire.js";
 import {PtolusFighters, PtolusFightersAnimated} from "./ptolus.js";
-import {Unmasked, UnmaskedAnimated} from "./unmasked.js";
+import {UnmaskedTeen, UnmaskedTeenAnimated} from "./unmasked.js";
 import {WeAreMadCastle, WeAreMadCastleAnimated} from "./waamh.js";
 
 // a class to hold constants for cyphersheets
@@ -99,8 +99,8 @@ Hooks.once('init', () => {
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.UNMASKED)) {
-        Actors.registerSheet("cypher", Unmasked, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", UnmaskedAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", UnmaskedTeen, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", UnmaskedTeenAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.WAAMH)) {
