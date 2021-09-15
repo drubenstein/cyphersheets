@@ -1,37 +1,23 @@
 /* unmasked */
 
-.unmasked {
-  background-image: url("./images/unmasked/Unmasked-11-Cathy-Wilkins.webp");
-  color: var(--unmasked);
-  background-position: 15%;
-}
-
-.unmasked input[name="name"] {
+.unmasked input[name="name"],
+.unmasked input[name="data.teen.basic.name"] {
   font: 2.1em "Thunderman";
   height: 38px;
   letter-spacing: -1.5px;
-  text-shadow: 1px 1px 5px var(--unmasked-name-shadow);
 }
 
-.unmasked input,
-.unmasked select {
-  color: var(--unmasked);
+/* teen */
+
+.teen {
+  background-image: url("./images/unmasked/Unmasked-11-Cathy-Wilkins.webp");
+  background-position: 15%;
+  --font-color: #163946;
+  --hover-shadow: #f27ab4;
+  --scrollbar-background: #16394680;
 }
 
-.unmasked input:focus {
-  box-shadow: 0 0 5px var(--unmasked-shadow);
-}
-
-.unmasked a:hover {
-  text-shadow: 0 0 8px var(--unmasked-shadow);
-}
-
-.unmasked ::-webkit-scrollbar-thumb {
-  background: var(--unmasked-transparent);
-  border: 1px solid var(--unmasked);
-}
-
-.unmasked h1,
-.unmasked h2 {
-  border-bottom-color: var(--unmasked);
+.teen input[name="name"],
+.teen input[name="data.teen.basic.name"] {
+  text-shadow: 1px 1px 5px var(--hover-shadow);
 }

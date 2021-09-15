@@ -1,36 +1,23 @@
-/* ptolus fighters*/
+/* ptolus */
+
+.ptolus input[name="name"],
+.ptolus input[name="data.teen.basic.name"] {
+  font: 2.3em "Prince Valiant";
+  height: 37px;
+}
+
+/* fighters */
 
 .fighters {
   background-image: url("./images/ptolus/Cypher-System-Rulebook-4-Matt-Stawicki.webp");
-  color: var(--ptolus-fighters);
   background-position: 90%;
+  --font-color: #1a3040;
+  --name-shadow: #f1dbc1;
+  --hover-shadow: #402a1a;
+  --scrollbar-background: #1a304080;
 }
 
-.fighters input[name="name"] {
-  font: 2.3em "Prince Valiant";
-  height: 37px;
-  text-shadow: 1px 1px 1px var(--ptolus-fighters-name-shadow);
-}
-
-.fighters input,
-.fighters select {
-  color: var(--ptolus-fighters);
-}
-
-.fighters input:focus {
-  box-shadow: 0 0 5px var(--ptolus-fighters-shadow);
-}
-
-.fighters a:hover {
-  text-shadow: 0 0 8px var(--ptolus-fighters-shadow);
-}
-
-.fighters ::-webkit-scrollbar-thumb {
-  background: var(--ptolus-fighters-transparent);
-  border: 1px solid var(--ptolus-fighters);
-}
-
-.fighters h1,
-.fighters h2 {
-  border-bottom-color: var(--ptolus-fighters);
+.fighters input[name="name"],
+.fighters input[name="data.teen.basic.name"] {
+  text-shadow: 1px 1px 1px var(--name-shadow);
 }

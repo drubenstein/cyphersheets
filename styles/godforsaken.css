@@ -1,80 +1,38 @@
-/* godforsaken main styles */
+/* godforsaken */
 
-/* godforsaken combat */
-
-.combat {
-  background-image: url("./images/godforsaken/Godforsaken-50-Angelo-Peluso.webp");
-  color: var(--godforsaken-combat);
-  background-position: right;
-}
-
-.combat input[name="name"] {
+.godforsaken input[name="name"],
+.godforsaken input[name="data.teen.basic.name"] {
   font: 3em "Endoralt";
   letter-spacing: 2px;
   height: 42px;
   margin-top: -7px;
-  text-shadow: 0px 2px 4px var(--godforsaken-combat-name-shadow);
 }
 
-.combat input,
-.combat select {
-  color: var(--godforsaken-combat);
+/* fantasy-combat */
+
+.fantasy-combat {
+  background-image: url("./images/godforsaken/Godforsaken-50-Angelo-Peluso.webp");
+  background-position: right;
+  --font-color: #002f23;
+  --name-shadow: #6f9485;
+  --hover-shadow: #2f000c;
+  --scrollbar-background: #002f2380;
 }
 
-.combat input:focus {
-  box-shadow: 0 0 5px var(--godforsaken-combat-shadow);
+.fantasy-combat input[name="name"],
+.fantasy-combat input[name="data.teen.basic.name"] {
+  text-shadow: 0px 2px 4px var(--name-shadow);
 }
 
-.combat a:hover {
-  text-shadow: 0 0 8px var(--godforsaken-combat-shadow);
-}
-
-.combat ::-webkit-scrollbar-thumb {
-  background: var(--godforsaken-combat-transparent);
-  border: 1px solid var(--godforsaken-combat);
-}
-
-.combat h1,
-.combat h2 {
-  border-bottom-color: var(--godforsaken-combat);
-}
-
-/* godforsaken archer */
+/*  archer */
 
 .archer {
   background-image: url("./images/godforsaken/fantasy-2770468.webp");
   background-position: 30%;
-  color: var(--godforsaken-archer);
 }
 
-.archer input,
-.archer input {
-  color: var(--godforsaken-archer);
-}
-
-.archer input[name="name"] {
-  font: 3em "Endoralt";
-  letter-spacing: 2px;
-  height: 42px;
-  margin-top: -7px;
-  color: var(--godforsaken-archer-name);
-  text-shadow: 0px 4px 5px var(--godforsaken-archer-name-shadow);
-}
-
-.archer input:focus {
-  box-shadow: 0 0 5px var(--godforsaken-archer-shadow);
-}
-
-.archer a:hover {
-  text-shadow: 0 0 8px var(--godforsaken-archer-shadow);
-}
-
-.archer ::-webkit-scrollbar-thumb {
-  background: var(--godforsaken-archer-transparent);
-  border: 1px solid var(--godforsaken-archer);
-}
-
-.archer h1,
-.archer h2 {
-  border-bottom-color: var(--godforsaken-archer-name);
+.archer input[name="name"],
+.archer input[name="data.teen.basic.name"] {
+  color: var(--name-color);
+  text-shadow: 0px 4px 5px var(--name-shadow);
 }

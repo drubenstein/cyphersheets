@@ -1,38 +1,25 @@
-/* waamh castle */
+/* waamh */
 
-.castle {
-  background-image: url("./images/waamh/We-Are-All-Mad-Here-17-Nino-Vecia.webp");
-  color: var(--waamh-castle);
-  background-position: center;
-}
-
-.castle input[name="name"] {
+.waamh input[name="name"],
+.waamh input[name="data.teen.basic.name"] {
   font: 2em "Cardinal";
   height: 37px;
   letter-spacing: -0.5px;
   margin-top: 5px;
-  text-shadow: -1px -1px 1px var(--waamh-castle-name-shadow);
 }
 
-.castle input,
-.castle select {
-  color: var(--waamh-castle);
+/* castle */
+
+.castle {
+  background-image: url("./images/waamh/We-Are-All-Mad-Here-17-Nino-Vecia.webp");
+  background-position: center;
+  --font-color: #273a24;
+  --name-shadow: #f1a58c;
+  --hover-shadow: #37243a;
+  --scrollbar-background: #273a2480;
 }
 
-.castle input:focus {
-  box-shadow: 0 0 5px var(--waamh-castle-shadow);
-}
-
-.castle a:hover {
-  text-shadow: 0 0 8px var(--waamh-castle-shadow);
-}
-
-.castle ::-webkit-scrollbar-thumb {
-  background: var(--waamh-castle-transparent);
-  border: 1px solid var(--waamh-castle);
-}
-
-.castle h1,
-.castle h2 {
-  border-bottom-color: var(--waamh-castle);
+.castle input[name="name"],
+.castle input[name="data.teen.basic.name"] {
+  text-shadow: -1px -1px 1px var(--name-shadow);
 }

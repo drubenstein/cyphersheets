@@ -1,36 +1,23 @@
-/* thestrange alien */
+/* thestrange */
+
+.thestrange input[name="name"],
+.thestrange input[name="data.teen.basic.name"] {
+  font: 2.2em "Extraction";
+  height: 35px;
+}
+
+/* alien */
 
 .alien {
   background-image: url("./images/the-strange/Cypher-System-Rulebook-05-Martin-DeDiego.webp");
-  color: var(--thestrange-alien);
   background-position: center;
+  --font-color: #2b253e;
+  --name-shadow: #ffbc75;
+  --hover-shadow: #383e25;
+  --scrollbar-background: #2b253e80;
 }
 
-.alien input[name="name"] {
-  font: 2.2em "Extraction";
-  height: 35px;
-  text-shadow: -1px 0px 1px var(--thestrange-alien-name-shadow);
-}
-
-.alien input,
-.alien select {
-  color: var(--thestrange-alien);
-}
-
-.alien input:focus {
-  box-shadow: 0 0 5px var(--thestrange-alien-shadow);
-}
-
-.alien a:hover {
-  text-shadow: 0 0 8px var(--thestrange-alien-shadow);
-}
-
-.alien ::-webkit-scrollbar-thumb {
-  background: var(--thestrange-alien-transparent);
-  border: 1px solid var(--thestrange-alien);
-}
-
-.alien h1,
-.alien h2 {
-  border-bottom-color: var(--thestrange-alien);
+.alien input[name="name"],
+.alien input[name="data.teen.basic.name"] {
+  text-shadow: -1px 0px 1px var(--name-shadow);
 }

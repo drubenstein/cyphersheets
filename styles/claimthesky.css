@@ -1,37 +1,24 @@
 /* claimthesky */
 
-.claimthesky {
-  background-image: url("./images/claim-the-sky/Cypher-System-Rulebook-11-Robert-Pitturru.webp");
-  color: var(--claimthesky);
-  background-position: center;
-}
-
-.claimthesky input[name="name"] {
+.claimthesky input[name="name"],
+.claimthesky input[name="data.teen.basic.name"] {
   font: 2em "Flames";
   height: 37px;
   letter-spacing: -1.5px;
-  text-shadow: 0px 1px 1px var(--claimthesky-name-shadow);
 }
 
-.claimthesky input,
-.claimthesky select {
-  color: var(--claimthesky);
+/* superheroes */
+
+.superheroes {
+  background-image: url("./images/claim-the-sky/Cypher-System-Rulebook-11-Robert-Pitturru.webp");
+  background-position: center;
+  --font-color: #800000;
+  --name-shadow: #ffe154;
+  --hover-shadow: #008080;
+  --scrollbar-background: #80000080;
 }
 
-.claimthesky input:focus {
-  box-shadow: 0 0 5px var(--claimthesky-shadow);
-}
-
-.claimthesky a:hover {
-  text-shadow: 0 0 8px var(--claimthesky-shadow);
-}
-
-.claimthesky ::-webkit-scrollbar-thumb {
-  background: var(--claimthesky-transparent);
-  border: 1px solid var(--claimthesky);
-}
-
-.claimthesky h1,
-.claimthesky h2 {
-  border-bottom-color: var(--claimthesky);
+.superheroes input[name="name"],
+.superheroes input[name="data.teen.basic.name"] {
+  text-shadow: 0px 1px 1px var(--name-shadow);
 }

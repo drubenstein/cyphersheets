@@ -1,78 +1,28 @@
-/* starsarefire main styles*/
+/* starsarefire */
 
-/* starsarefire starfighter */
-.starfighter {
-  background-image: url("./images/the-stars-are-fire/The-Stars-Are-Fire-03-Katerina-Ladon.webp");
-  color: var(--starsarefire-starfighter);
-  background-position: center;
-}
-
-.starfighter input,
-.starfighter select {
-  color: var(--starsarefire-starfighter);
-}
-
-.starfighter input[name="name"] {
+.starsarefire input[name="name"],
+.starsarefire input[name="data.teen.basic.name"] {
   font: 2em "Star Jedi Outline";
   height: 35px;
   text-transform: lowercase;
   margin-top: -3px;
-  text-shadow: none;
 }
 
-.starfighter input:focus {
-  box-shadow: 0 0 5px var(--starsarefire-starfighter-shadow);
+/* starfighter */
+.starfighter {
+  background-image: url("./images/the-stars-are-fire/The-Stars-Are-Fire-03-Katerina-Ladon.webp");
+  background-position: center;
+  --font-color: #31397c;
+  --hover-shadow: #7c3139;
+  --scrollbar-background: #31397c80;
 }
 
-.starfighter a:hover {
-  text-shadow: 0 0 8px var(--starsarefire-starfighter-shadow);
-}
-
-.starfighter ::-webkit-scrollbar-thumb {
-  background: var(--starsarefire-starfighter-transparent);
-  border: 1px solid var(--starsarefire-starfighter);
-}
-
-.starfighter h1,
-.starfighter h2 {
-  border-bottom-color: var(--starsarefire-starfighter);
-}
-
-/* starsarefire explorer */
+/* explorer */
 
 .explorer {
   background-image: url("./images/the-stars-are-fire/The-Stars-Are-Fire-55-Katerina-Ladon.webp");
-  color: var(--starsarefire-explorer);
   background-position: 47%;
-}
-
-.explorer input,
-.explorer input {
-  color: var(--starsarefire-explorer);
-}
-
-.explorer input[name="name"] {
-  font: 2em "Star Jedi Outline";
-  height: 35px;
-  text-transform: lowercase;
-  margin-top: -3px;
-  text-shadow: none;
-}
-
-.explorer input:focus {
-  box-shadow: 0 0 5px var(--starsarefire-explorer-shadow);
-}
-
-.explorer a:hover {
-  text-shadow: 0 0 8px var(--starsarefire-explorer-shadow);
-}
-
-.explorer ::-webkit-scrollbar-thumb {
-  background: var(--starsarefire-explorer-transparent);
-  border: 1px solid var(--starsarefire-explorer);
-}
-
-.explorer h1,
-.explorer h2 {
-  border-bottom-color: var(--starsarefire-explorer);
+  --font-color: #321b40;
+  --hover-shadow: #1b4032;
+  --scrollbar-background: #321b4080;
 }

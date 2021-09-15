@@ -1,36 +1,23 @@
-/* predation trex */
+/* predation */
+
+.predation input[name="name"],
+.predation input[name="data.teen.basic.name"] {
+  font: 2.2em "Extraction";
+  height: 35px;
+}
+
+/* trex */
 
 .trex {
   background-image: url("./images/predation/Predation-14-Lie-Setiawan.webp");
-  color: var(--predation-trex);
   background-position: 20%;
+  --font-color: #26402a;
+  --name-shadow: #925b4a;
+  --hover-shadow: #40263c;
+  --scrollbar-background: #26402a80;
 }
 
-.trex input[name="name"] {
-  font: 2.2em "Extraction";
-  height: 35px;
-  text-shadow: -1px 0px 1px var(--predation-trex-shadow);
-}
-
-.trex input,
-.trex select {
-  color: var(--predation-trex);
-}
-
-.trex input:focus {
-  box-shadow: 0 0 5px var(--predation-trex-shadow);
-}
-
-.trex a:hover {
-  text-shadow: 0 0 8px var(--predation-trex-shadow);
-}
-
-.trex ::-webkit-scrollbar-thumb {
-  background: var(--predation-trex-transparent);
-  border: 1px solid var(--predation-trex);
-}
-
-.trex h1,
-.trex h2 {
-  border-bottom-color: var(--predation-trex);
+.trex input[name="name"],
+.trex input[name="data.teen.basic.name"] {
+  text-shadow: -1px 0px 1px var(--name-shadow);
 }

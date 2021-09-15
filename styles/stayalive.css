@@ -1,38 +1,19 @@
-/* stayalive surrounded */
+/* stayalive */
 
-.surrounded {
-  background-image: url("./images/stay-alive/Cypher-System-Rulebook-03-Martin-DeDiego.webp");
-  color: var(--stayalive-surrounded);
-  background-position: 75%;
-}
-
-.surrounded input[name="name"] {
+.stayalive input[name="name"],
+.stayalive input[name="data.teen.basic.name"] {
   font: 3em "Swamp";
   height: 50px;
   margin-top: 5px;
   letter-spacing: 1px;
-  text-shadow: none;
 }
 
-.surrounded input,
-.surrounded select {
-  color: var(--stayalive-surrounded);
-}
+/* surrounded */
 
-.surrounded input:focus {
-  box-shadow: 0 0 5px var(--stayalive-surrounded-shadow);
-}
-
-.surrounded a:hover {
-  text-shadow: 0 0 8px var(--stayalive-surrounded-shadow);
-}
-
-.surrounded ::-webkit-scrollbar-thumb {
-  background: var(--stayalive-surrounded-transparent);
-  border: 1px solid var(--stayalive-surrounded);
-}
-
-.surrounded h1,
-.surrounded h2 {
-  border-bottom-color: var(--stayalive-surrounded);
+.surrounded {
+  background-image: url("./images/stay-alive/Cypher-System-Rulebook-03-Martin-DeDiego.webp");
+  background-position: 75%;
+  --font-color: #660000;
+  --hover-shadow: #000000;
+  --scrollbar-background: #66000080;
 }
