@@ -102,7 +102,7 @@ export class CypherSheetsConfigDialog extends FormApplication {
         const mergedOptions = foundry.utils.mergeObject(defaults, overrides);
 
         return mergedOptions;
-    }
+    };
 
     // form data 
     getData(options) {
@@ -138,19 +138,36 @@ export class CypherSheetsConfigDialog extends FormApplication {
             };
         }
         return data
-    }
+    };
 
     // resets values for custom sheet settings
     activateListeners(html) {
         super.activateListeners(html);
         html.find('button[name="reset"]').click(this.onReset.bind(this));
         this.reset = false;
-    }
+        
+        html.find('#mcg-accordion-card').click(function() {
+            let mcgStatement = $('#mcg-accordion-card .card-body');
+            $('#mcg-accordion-card .card-title .fas').toggleClass("arrow-down");
+
+            if(mcgStatement.css('display') == 'block') {
+                mcgStatement.slideUp();
+            } else {
+                $('.card-body').slideUp();
+                mcgStatement.slideDown();
+            }
+        });
+    };
 
     onReset() {
         this.reset = true;
         this.render();
-    }
+    };
+
+    // activateListeners(html) {
+    //     super.activateListeners(html);
+        
+    // };
 
     // gets data from HTML form
     async _updateObject(event, formData) {
@@ -166,5 +183,5 @@ export class CypherSheetsConfigDialog extends FormApplication {
         SettingsForm.setUseTheStrangeSheets(formData.useTheStrangeSheets);
         SettingsForm.setUseUnmaskedSheets(formData.useUnmaskedSheets);
         SettingsForm.setUseWAAMHSheets(formData.useWAAMHSheets);
-    }
+    };
 };

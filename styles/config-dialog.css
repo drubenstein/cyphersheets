@@ -10,7 +10,8 @@
 .cypher-sheets-form input:hover,
 .cypher-sheets-form label:hover,
 button[data-key="cyphersheets.cyphersheetsconfig"] i:hover,
-button[data-key="cyphersheets.cyphersheetsconfig"] label:hover {
+button[data-key="cyphersheets.cyphersheetsconfig"] label:hover,
+.cypher-sheets-form .card-title:hover {
   cursor: pointer;
 }
 
@@ -29,7 +30,7 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
   cursor: pointer;
 }
 
-.cypher-sheets-form section {
+.cypher-sheets-form section.sheet-settings {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   max-height: fit-content;
@@ -47,6 +48,47 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
   border-radius: none;
   width: 100%;
   height: auto;
+}
+
+#mcg-accordion-card {
+  margin-left: 285px;
+  position: absolute;
+}
+
+#mcg-accordion-card .card-title {
+  font-size: 1.05em;
+}
+
+.cypher-sheets-form label:hover,
+#mcg-accordion-card .card-title:hover {
+  text-shadow: 0 0 8px red;
+}
+
+#mcg-accordion-card i {
+  transition: transform 0.5s, margin-right 0.3s;
+  margin-right: -2px;
+}
+
+#mcg-accordion-card .arrow-down {
+  transform: rotate(90deg);
+  margin-right: 0;
+}
+
+#mcg-accordion-card .card-body {
+  display: none;
+  margin: -6.3px 0 5px;
+  background: #e3dfd7c7;
+  padding: 2px 5px;
+  font-size: 0.8em;
+  border: 1px solid #cbb8ae;
+  border-radius: 3px;
+}
+
+#mcg-accordion-card .card-body a {
+  display: block;
+  text-align: right;
+  color: black;
+  margin: -15px 2px 2px;
 }
 
 /* gets rid of blue border style from nice-cypher-add-ons */
