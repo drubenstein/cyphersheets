@@ -49,6 +49,7 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
   border-radius: none;
   width: 100%;
   height: auto;
+  align-self: center;
 }
 
 .cypher-sheets-form #mcg-accordion-card {

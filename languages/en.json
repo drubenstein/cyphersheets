@@ -18,8 +18,8 @@
         "Name": "Original Cypher System PC sheet",
         "Hint": "Make the original CypherActorSheetPC (by mrkwnzl) available."
       },
-      "genre": {
-        "Name": "Genre PC sheets",
+      "expanded-worlds": {
+        "Name": "Expanded Worlds PC sheets",
         "Hint": {
           "1": "Modern: Action",
           "2": "Modern: Discovery",
