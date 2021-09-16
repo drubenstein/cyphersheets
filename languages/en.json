@@ -10,7 +10,9 @@
       },
       "claim-the-sky": {
         "Name": "Claim the Sky PC sheets",
-        "Hint": "Make Claim the Sky character sheets available."
+        "Hint": {
+          "1": "Superheroes"
+        }
       },
       "cypher-system": {
         "Name": "Original Cypher System PC sheet",
@@ -18,47 +20,75 @@
       },
       "genre": {
         "Name": "Genre PC sheets",
-        "Hint": "Modern, Post-Apocalyptic, Sci-Fi, and Western."
+        "Hint": {
+          "1": "Modern: Action",
+          "2": "Modern: Discovery",
+          "3": "Post-Apocalyptic",
+          "4": "Western"
+        }
       },
       "godforsaken": {
         "Name": "Godforsaken PC sheets",
-        "Hint": "Make Godforsaken character sheets available."
+        "Hint": {
+          "1": "Dark Archer",
+          "2": "Fantasy Combat"
+        }
       },
       "gods-of-the-fall": {
         "Name": "Gods of the Fall PC sheets",
-        "Hint": "Make Gods of the Fall character sheets available."
+        "Hint": {
+          "1": "Divine Spark"
+        }
       },
       "numenera": {
         "Name": "Numenera PC sheets",
-        "Hint": "Make Numenera character sheets available."
+        "Hint": {
+          "1": "Amber Monolith",
+          "2": "Obelisk of Water God"
+        }
       },
       "predation": {
         "Name": "Predation PC sheets",
-        "Hint": "Make Predation character sheets available."
+        "Hint": {
+          "1": "Tyrannosaurus Rex"
+        }
       },
       "ptolus": {
         "Name": "Ptolus PC sheets",
-        "Hint": "Make Ptolus character sheets available."
+        "Hint": {
+          "1": "Two Fighters"
+        }
       },
       "stay-alive": {
         "Name": "Stay Alive! PC sheets",
-        "Hint": "Make Stay Alive! character sheets available."
+        "Hint": {
+          "1": "Completely Surrounded"
+        }
       },
       "the-stars-are-fire": {
         "Name": "The Stars Are Fire PC sheets",
-        "Hint": "Make The Stars Are Fire character sheets available."
+        "Hint": {
+          "1": "Lone Explorer",
+          "2": "Starfighter"
+        }
       },
       "the-strange": {
         "Name": "The Strange PC sheets",
-        "Hint": "Make The Strange character sheets available."
+        "Hint": {
+          "1": "Alien Invasion"
+        }
       },
       "unmasked": {
         "Name": "Unmasked PC sheets",
-        "Hint": "Make Unmasked character sheets available."
+        "Hint": {
+          "1": "Teen Form"
+        }
       },
       "waamh": {
         "Name": "We Are All Mad Here PC sheets",
-        "Hint": "Make We Are All Mad Here character sheets available."
+        "Hint": {
+          "1": "Fairytale Castle"
+        }
       }
     }
   }

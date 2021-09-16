@@ -2,7 +2,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
 
 // create new class extensions for godsofthefall sheets => overrides templates
     
-  export class GodsofFallShaper extends CustomCypherSheet {
+  export class GotFDivineSpark extends CustomCypherSheet {
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
@@ -11,7 +11,7 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     }
   }
 
-  export class GodsofFallShaperAnimated extends CustomCypherSheet {
+  export class GotFDivineSparkAnimated extends CustomCypherSheet {
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {

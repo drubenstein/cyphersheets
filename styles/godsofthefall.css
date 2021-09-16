@@ -10,7 +10,7 @@
 
 /* shaper */
 
-.shaper {
+.divine-spark {
   background-image: url("./images/gods-of-the-fall/Gods-of-the-Fall-07-Matt-Stawicki.webp");
   background-position: right;
   --font-color: #292516;
@@ -19,7 +19,7 @@
   --scrollbar-background: #29251680;
 }
 
-.shaper input[name="name"],
-.shaper input[name="data.teen.basic.name"] {
+.divine-spark input[name="name"],
+.divine-spark input[name="data.teen.basic.name"] {
   text-shadow: 0px 2px 4px var(--name-shadow);
 }

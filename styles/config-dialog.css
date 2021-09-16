@@ -38,9 +38,10 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
 
 .cypher-sheets-form .sheet-checkboxes {
   grid-column: 1 / 4;
+  position: relative;
 }
 
-#form-img {
+.cypher-sheets-form #form-img {
   grid-column: 4 / 6;
   margin: 0;
   box-shadow: none;
@@ -50,31 +51,31 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
   height: auto;
 }
 
-#mcg-accordion-card {
+.cypher-sheets-form #mcg-accordion-card {
   margin-left: 285px;
   position: absolute;
 }
 
-#mcg-accordion-card .card-title {
+.cypher-sheets-form #mcg-accordion-card .card-title {
   font-size: 1.05em;
 }
 
 .cypher-sheets-form label:hover,
-#mcg-accordion-card .card-title:hover {
+.cypher-sheets-form #mcg-accordion-card .card-title:hover {
   text-shadow: 0 0 8px red;
 }
 
-#mcg-accordion-card i {
+.cypher-sheets-form #mcg-accordion-card i {
   transition: transform 0.5s, margin-right 0.3s;
   margin-right: -2px;
 }
 
-#mcg-accordion-card .arrow-down {
+.cypher-sheets-form #mcg-accordion-card .arrow-down {
   transform: rotate(90deg);
   margin-right: 0;
 }
 
-#mcg-accordion-card .card-body {
+.cypher-sheets-form #mcg-accordion-card .card-body {
   display: none;
   margin: -6.3px 0 5px;
   background: #e3dfd7c7;
@@ -84,11 +85,49 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
   border-radius: 3px;
 }
 
-#mcg-accordion-card .card-body a {
+.cypher-sheets-form #mcg-accordion-card .card-body a {
   display: block;
   text-align: right;
   color: black;
   margin: -15px 2px 2px;
+}
+
+.cypher-sheets-form .sheet-preview {
+  position: relative;
+  cursor: zoom-in;
+}
+
+.cypher-sheets-form .sheet-preview img {
+  position: absolute;
+  visibility: hidden;
+  transform: translate(-10px, -20px);
+  z-index: 1;
+  max-width: 320px;
+}
+
+.cypher-sheets-form .sheet-preview img.move-left {
+  transform: translate(-50px, -20px);
+}
+
+.cypher-sheets-form .sheet-preview img.move-middle {
+  transform: translate(-10px, -120px);
+}
+
+.cypher-sheets-form .sheet-preview img.move-up {
+  transform: translate(-10px, -220px);
+}
+
+.cypher-sheets-form .sheet-preview img.all-the-way-up {
+  transform: translate(-10px, -320px);
+}
+
+.cypher-sheets-form .sheet-preview:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.cypher-sheets-form .sheet-preview:hover img {
+  visibility: visible;
 }
 
 /* gets rid of blue border style from nice-cypher-add-ons */
