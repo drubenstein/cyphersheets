@@ -1,5 +1,10 @@
 /* unmasked */
 
+@font-face {
+  font-family: "Thunderman";
+  src: url("./fonts/Thunderman.ttf") format("truetype");
+}
+
 .unmasked input[name="name"],
 .unmasked input[name="data.teen.basic.name"] {
   font: 2.1em "Thunderman";

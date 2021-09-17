@@ -1,5 +1,10 @@
 /* waamh */
 
+@font-face {
+  font-family: "Cardinal";
+  src: url("./fonts/Cardinal.ttf") format("truetype");
+}
+
 .waamh input[name="name"],
 .waamh input[name="data.teen.basic.name"] {
   font: 2em "Cardinal";

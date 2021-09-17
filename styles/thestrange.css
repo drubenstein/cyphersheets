@@ -1,5 +1,10 @@
 /* thestrange */
 
+@font-face {
+  font-family: "Extraction";
+  src: url("./fonts/extraction.ttf") format("truetype");
+}
+
 .thestrange input[name="name"],
 .thestrange input[name="data.teen.basic.name"] {
   font: 2.2em "Extraction";

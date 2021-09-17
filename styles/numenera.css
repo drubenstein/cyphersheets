@@ -1,5 +1,10 @@
 /* numenera */
 
+@font-face {
+  font-family: "QuadratSerial";
+  src: url("./fonts/SoftMaker-QuadratSerial.otf") format("opentype");
+}
+
 .numenera input[name="name"],
 .numenera input[name="data.teen.basic.name"] {
   font: 2.2em "QuadratSerial";

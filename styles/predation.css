@@ -1,9 +1,15 @@
 /* predation */
 
+@font-face {
+  font-family: "Transformers";
+  src: url("./fonts/Transformers.ttf") format("truetype");
+}
+
 .predation input[name="name"],
 .predation input[name="data.teen.basic.name"] {
-  font: 2.2em "Extraction";
+  font: 2.4em "Transformers";
   height: 35px;
+  letter-spacing: 0.5px;
 }
 
 /* trex */

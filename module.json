@@ -19,7 +19,6 @@
     "styles": [
         "styles/all-cyphersheets.css",
         "styles/numenera.css",
-        "styles/fonts.css",
         "styles/animations.css",
         "styles/godforsaken.css",
         "styles/godsofthefall.css",

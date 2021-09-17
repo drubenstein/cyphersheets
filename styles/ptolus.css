@@ -1,5 +1,10 @@
 /* ptolus */
 
+@font-face {
+  font-family: "Prince Valiant";
+  src: url("./fonts/Prince-Valiant.ttf") format("truetype");
+}
+
 .ptolus input[name="name"],
 .ptolus input[name="data.teen.basic.name"] {
   font: 2.3em "Prince Valiant";

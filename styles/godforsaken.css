@@ -1,5 +1,10 @@
 /* godforsaken */
 
+@font-face {
+  font-family: "Endoralt";
+  src: url("./fonts/ENDORALT.ttf") format("truetype");
+}
+
 .godforsaken input[name="name"],
 .godforsaken input[name="data.teen.basic.name"] {
   font: 3em "Endoralt";

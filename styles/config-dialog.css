@@ -132,6 +132,6 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
 }
 
 /* gets rid of blue border style from nice-cypher-add-ons */
-.cypher-sheets-form :checked + label {
+/* .cypher-sheets-form :checked + label {
   border: none;
-}
+} */

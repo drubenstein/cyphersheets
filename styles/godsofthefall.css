@@ -1,11 +1,15 @@
 /* godsofthefall */
 
+@font-face {
+  font-family: "Immortal";
+  src: url("./fonts/IMMORTAL.ttf") format("truetype");
+}
+
 .godsofthefall input[name="name"],
 .godsofthefall input[name="data.teen.basic.name"] {
-  font: 3em "Endoralt";
-  letter-spacing: 2px;
-  height: 42px;
-  margin-top: -7px;
+  font: 1.9em "Immortal";
+  letter-spacing: -2px;
+  height: 35px;
 }
 
 /* shaper */
