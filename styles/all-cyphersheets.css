@@ -27,7 +27,8 @@
 }
 
 .custom-cypher-sheet input,
-.custom-cypher-sheet select {
+.custom-cypher-sheet select,
+.custom-cypher-sheet .linkedButton {
   text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
   color: var(--font-color);
 }

@@ -130,8 +130,3 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
 .cypher-sheets-form .sheet-preview:hover img {
   visibility: visible;
 }
-
-/* gets rid of blue border style from nice-cypher-add-ons */
-/* .cypher-sheets-form :checked + label {
-  border: none;
-} */
