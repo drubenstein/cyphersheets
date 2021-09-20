@@ -78,7 +78,7 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
 
 .cypher-sheets-form #mcg-accordion-card .card-body {
   display: none;
-  margin: -6.3px 0 5px;
+  margin: -6.3px 5px 5px 0;
   background: #e3dfd7c7;
   padding: 2px 5px;
   font-size: 0.8em;
@@ -88,9 +88,9 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
 
 .cypher-sheets-form #mcg-accordion-card .card-body a {
   display: block;
-  text-align: right;
+  text-align: center;
   color: black;
-  margin: -15px 2px 2px;
+  margin: -5px 2px 2px;
 }
 
 .cypher-sheets-form .sheet-preview {
