@@ -33,10 +33,10 @@
 .dragon {
   background-image: url("./images/gods-of-the-fall/Gods-of-the-Fall-13-Grzegorz-Pedrycz.jpg");
   background-position: left;
-  --font-color: #292516;
-  --name-shadow: #574e2d;
-  --hover-shadow: #161a29;
-  --scrollbar-background: #29251680;
+  --font-color: #1b285d;
+  --name-shadow: #82dfee;
+  --hover-shadow: #1b595d;
+  --scrollbar-background: #1b285d80;
 }
 
 .dragon input[name="name"],

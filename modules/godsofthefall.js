@@ -19,3 +19,21 @@ import {CustomCypherSheet} from "./cs-extensions.js";
       });
     }
   }
+
+  export class GotFDragon extends CustomCypherSheet {
+    /** @override */
+    static get defaultOptions() {
+      return foundry.utils.mergeObject(super.defaultOptions, {
+        template: "modules/cyphersheets/templates/godsofthefall/gotf-dragon.html"
+      });
+    }
+  }
+
+  export class GotFDragonAnimated extends CustomCypherSheet {
+    /** @override */
+    static get defaultOptions() {
+      return foundry.utils.mergeObject(super.defaultOptions, {
+        template: `modules/cyphersheets/templates/godsofthefall/gotf-dragon-animated.html`
+      });
+    }
+  }

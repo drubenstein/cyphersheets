@@ -3,7 +3,7 @@ import {registerModuleSettings} from "./settings.js";
 import {NumeneraObelisk, NumeneraObeliskAnimated, NumeneraMonolith, NumeneraMonolithAnimated} from "./numenera.js";
 import {preloadHandlebarsTemplates} from "./cs-extensions.js";
 import {GodforsakenArcher, GodforsakenArcherAnimated, GodforsakenCombat, GodforsakenCombatAnimated} from "./godforsaken.js";
-import {GotFDivineSpark, GotFDivineSparkAnimated} from "./godsofthefall.js";
+import {GotFDivineSpark, GotFDivineSparkAnimated, GotFDragon, GotFDragonAnimated} from "./godsofthefall.js";
 import {ClaimSkySuperheroes, ClaimSkySuperheroesAnimated} from "./claimthesky.js";
 import {PredationTRex, PredationTRexAnimated} from "./predation.js";
 import {TheStrangeAlien, TheStrangeAlienAnimated} from "./thestrange.js";
@@ -71,6 +71,8 @@ Hooks.once('init', () => {
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GODSOFTHEFALL)) {
         Actors.registerSheet("cypher", GotFDivineSpark, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", GotFDivineSparkAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", GotFDragon, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", GotFDragonAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.PREDATION)) {
