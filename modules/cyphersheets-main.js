@@ -50,10 +50,10 @@ Hooks.once('init', () => {
     Actors.unregisterSheet("cypher", CypherActorSheetPC);
     // make cypher sheets available if selected under settings (*selected by default*)
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.NUMENERA)) {
-        Actors.registerSheet("cypher", NumeneraObelisk, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", NumeneraObeliskAnimated, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", NumeneraMonolith, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", NumeneraMonolithAnimated, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", NumeneraObelisk, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", NumeneraObeliskAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.CLAIMTHESKY)) {

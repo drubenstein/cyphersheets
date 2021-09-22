@@ -54,5 +54,6 @@ The following images were used in accordance with MCG's [Fan Use Policy](https:/
 - "Unmasked 11 Cathy Wilkins"
 - "We Are All Mad Here 17 Nino Vecia"
 - "Godforsaken 72 Roberto Pitturru"
-- "MCG-Numenera-Obelisk-of-the-Water-God"
-- "MCG-Numenera-Amber-Monolith"
+- "MCG Numenera Obelisk of the Water God"
+- "MCG Numenera Amber Monolith"
+- "Gods of the Fall 13 Grzegorz Pedrycz"

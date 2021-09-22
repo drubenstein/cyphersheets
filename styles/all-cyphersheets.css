@@ -52,8 +52,18 @@
   margin-top: 18px;
 }
 
-.custom-cypher-sheet input:focus {
+.custom-cypher-sheet input:focus,
+.custom-cypher-sheet .linkedButton:focus {
   box-shadow: 0 0 5px var(--hover-shadow);
+}
+
+.custom-cypher-sheet .linkedButton:hover {
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.custom-cypher-sheet input:hover[type="checkbox"] {
+  cursor: pointer;
 }
 
 .custom-cypher-sheet a:hover {
