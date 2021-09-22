@@ -1,14 +1,18 @@
-# Cypher System Custom Sheets (Foundry VTT)
+# Cypher System Custom Sheets
 
 This [Foundry VTT](https://foundryvtt.com/) module replaces the default Cypher System PC sheet with alternate character sheet styles inspired by MCG settings and other generic themes.
 
+| ![alt text](https://raw.githubusercontent.com/gonzaPaEst/cyphersheets/main/styles/images/sheet-previews/NumeneraMonolith.jpeg "Numenera Amber Monolith") |   ![alt text](https://raw.githubusercontent.com/gonzaPaEst/cyphersheets/main/styles/images/sheet-previews/ClaimSkySuperheroes.jpeg "Claim the Sky Superheroes")    | ![alt text](https://raw.githubusercontent.com/gonzaPaEst/cyphersheets/main/styles/images/sheet-previews/GodforsakenArcher.jpeg "Godforsaken Dark Archer") |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     ![alt text](https://raw.githubusercontent.com/gonzaPaEst/cyphersheets/main/styles/images/sheet-previews/GofFDragon.jpeg "GotF Soulrest Dragon")      | ![alt text](https://raw.githubusercontent.com/gonzaPaEst/cyphersheets/main/styles/images/sheet-previews/StarsAreFireStarfighter.jpeg "Stars Are Fire Starfighter") | ![alt text](https://raw.githubusercontent.com/gonzaPaEst/cyphersheets/main/styles/images/sheet-previews/StayAliveSurrounded.jpeg "Stay Alive Surrounded") |
+
 ---
 
-## How To Use
+## How To Use It
 
 ### Installation
 
-To install and use the Cypher System Custom Sheets module, simply paste the following Manifest URL into the **Install Module** dialog on the Setup menu of the Foundry VTT application.
+To install and use the Cypher System Custom Sheets module, simply find it and download it in the **Install Module** dialog on the Setup menu of the Foundry VTT application. Alternatively, paste the following Manifest URL:
 
 https://raw.githubusercontent.com/gonzaPaEst/cyphersheets/main/module.json
 
