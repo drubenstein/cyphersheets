@@ -30,6 +30,7 @@
         "styles/ptolus.css",
         "styles/unmasked.css",
         "styles/waamh.css",
+        "styles/expanded-worlds.css",
         "styles/config-dialog.css"
       ],
     "languages": [

@@ -18,6 +18,13 @@ class SettingsForm {
         game.settings.set(CypherSheets.ID, CypherSheets.SETTINGS.CLAIMTHESKY, value);
     }
 
+    static getUseExpandedWorldsSheets(){
+        return game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.EXPANDED);
+    }
+    static setUseExpandedWorldsSheets(value) {
+        game.settings.set(CypherSheets.ID, CypherSheets.SETTINGS.EXPANDED, value);
+    }
+
     static getUseGodforsakenSheets(){
         return game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GODFORSAKEN);
     }
@@ -111,6 +118,7 @@ export class CypherSheetsConfigDialog extends FormApplication {
             data = {
                 useNumeneraSheets: true,
                 useClaimtheSkySheets: true,
+                useExpandedWorldsSheets: true,
                 useGodforsakenSheets: true,
                 useGodsoftheFallSheets: true,
                 usePredationSheets: true,
@@ -126,6 +134,7 @@ export class CypherSheetsConfigDialog extends FormApplication {
             data = {
                 useNumeneraSheets: SettingsForm.getUseNumeneraSheets(),
                 useClaimtheSkySheets: SettingsForm.getUseClaimtheSkySheets(),
+                useExpandedWorldsSheets: SettingsForm.getUseExpandedWorldsSheets(),
                 useGodforsakenSheets: SettingsForm.getUseGodforsakenSheets(),
                 useGodsoftheFallSheets: SettingsForm.getUseGodsoftheFallSheets(),
                 usePredationSheets: SettingsForm.getUsePredationSheets(),
@@ -174,6 +183,7 @@ export class CypherSheetsConfigDialog extends FormApplication {
 
         SettingsForm.setUseNumeneraSheets(formData.useNumeneraSheets);
         SettingsForm.setUseClaimtheSkySheets(formData.useClaimtheSkySheets);
+        SettingsForm.setUseExpandedWorldsSheets(formData.useExpandedWorldsSheets);
         SettingsForm.setUseGodforsakenSheets(formData.useGodforsakenSheets);
         SettingsForm.setUseGodsoftheFallSheets(formData.useGodsoftheFallSheets);
         SettingsForm.setUsePredationSheets(formData.usePredationSheets);
