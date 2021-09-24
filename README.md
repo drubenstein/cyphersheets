@@ -1,6 +1,6 @@
 # Cypher System Custom Sheets
 
-This [Foundry VTT](https://foundryvtt.com/) module replaces the default Cypher System PC sheet with alternate character sheet styles inspired by MCG settings and other generic themes.
+This [Foundry VTT](https://foundryvtt.com/) module replaces the default Cypher System PC sheet with alternate character sheets inspired by MCG settings and other generic themes.
 
 | ![alt text](https://raw.githubusercontent.com/gonzaPaEst/cyphersheets/main/styles/images/sheet-previews/NumeneraMonolith.jpeg "Numenera Amber Monolith") |   ![alt text](https://raw.githubusercontent.com/gonzaPaEst/cyphersheets/main/styles/images/sheet-previews/ClaimSkySuperheroes.jpeg "Claim the Sky Superheroes")    | ![alt text](https://raw.githubusercontent.com/gonzaPaEst/cyphersheets/main/styles/images/sheet-previews/GodforsakenArcher.jpeg "Godforsaken Dark Archer") |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -61,3 +61,4 @@ The following images were used in accordance with MCG's [Fan Use Policy](https:/
 - "MCG Numenera Obelisk of the Water God"
 - "MCG Numenera Amber Monolith"
 - "Gods of the Fall 13 Grzegorz Pedrycz"
+- "Cypher System Rulebook 21 Matt Stawicki"
