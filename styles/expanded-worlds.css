@@ -8,7 +8,7 @@
 .post-apocalyptic input[name="name"],
 .post-apocalyptic input[name="data.teen.basic.name"] {
   font: 2.5em "The End";
-  letter-spacing: -0.5px;
+  letter-spacing: -1px;
   height: 37px;
   margin-top: -5px;
   text-shadow: 1px 1px 2px var(--name-shadow);
@@ -17,10 +17,10 @@
 .post-apocalyptic {
   background-image: url("./images/expanded-worlds/Cypher-System-Rulebook-21-Matt-Stawicki.webp");
   background-position: 20%;
-  --font-color: #fff;
+  --font-color: #f9f9f9;
   --name-shadow: #ce1717;
-  --hover-shadow: #df0c0c;
-  --scrollbar-background: #ffffff80;
+  --hover-shadow: #fff;
+  --scrollbar-background: #f9f9f980;
 }
 
 .post-apocalyptic > form {
@@ -28,10 +28,28 @@
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
 }
 
-.custom-cypher-sheet input,
-.custom-cypher-sheet select,
-.custom-cypher-sheet .linkedButton {
+.post-apocalyptic input,
+.post-apocalyptic select,
+.post-apocalyptic .linkedButton {
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+}
+
+.post-apocalyptic .Inability {
+  color: #ff5c5c;
+}
+
+.post-apocalyptic .Specialized {
+  color: #8f8fff;
+}
+
+.post-apocalyptic .Trained {
+  color: #80e080;
+}
+
+.post-apocalyptic a:hover,
+.post-apocalyptic input:focus,
+.post-apocalyptic .linkedButton:focus {
+  filter: brightness(1.5);
 }
 
 /* .post-apocalyptic input[name="name"],
