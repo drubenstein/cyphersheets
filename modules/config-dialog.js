@@ -25,6 +25,13 @@ class SettingsForm {
         game.settings.set(CypherSheets.ID, CypherSheets.SETTINGS.EXPANDED, value);
     }
 
+    static getUseGenericThemesSheets(){
+        return game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GENERIC);
+    }
+    static setUseGenericThemesSheets(value) {
+        game.settings.set(CypherSheets.ID, CypherSheets.SETTINGS.GENERIC, value);
+    }
+
     static getUseGodforsakenSheets(){
         return game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GODFORSAKEN);
     }
@@ -119,6 +126,7 @@ export class CypherSheetsConfigDialog extends FormApplication {
                 useNumeneraSheets: true,
                 useClaimtheSkySheets: true,
                 useExpandedWorldsSheets: true,
+                useGenericThemesSheets: true,
                 useGodforsakenSheets: true,
                 useGodsoftheFallSheets: true,
                 usePredationSheets: true,
@@ -135,6 +143,7 @@ export class CypherSheetsConfigDialog extends FormApplication {
                 useNumeneraSheets: SettingsForm.getUseNumeneraSheets(),
                 useClaimtheSkySheets: SettingsForm.getUseClaimtheSkySheets(),
                 useExpandedWorldsSheets: SettingsForm.getUseExpandedWorldsSheets(),
+                useGenericThemesSheets: SettingsForm.getUseGenericThemesSheets(),
                 useGodforsakenSheets: SettingsForm.getUseGodforsakenSheets(),
                 useGodsoftheFallSheets: SettingsForm.getUseGodsoftheFallSheets(),
                 usePredationSheets: SettingsForm.getUsePredationSheets(),
@@ -184,6 +193,7 @@ export class CypherSheetsConfigDialog extends FormApplication {
         SettingsForm.setUseNumeneraSheets(formData.useNumeneraSheets);
         SettingsForm.setUseClaimtheSkySheets(formData.useClaimtheSkySheets);
         SettingsForm.setUseExpandedWorldsSheets(formData.useExpandedWorldsSheets);
+        SettingsForm.setUseGenericThemesSheets(formData.useGenericThemesSheets);
         SettingsForm.setUseGodforsakenSheets(formData.useGodforsakenSheets);
         SettingsForm.setUseGodsoftheFallSheets(formData.useGodsoftheFallSheets);
         SettingsForm.setUsePredationSheets(formData.usePredationSheets);

@@ -23,6 +23,16 @@ export const registerModuleSettings = function() {
          }, 1000)
     });
 
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.CLAIMTHESKY, {
+        default: true,
+        type: Boolean,
+        scope: 'world',
+        config: false,
+        onChange: () => setTimeout(() => {
+            location.reload();
+         }, 1000)
+    });
+
     game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.EXPANDED, {
         default: true,
         type: Boolean,
@@ -33,7 +43,7 @@ export const registerModuleSettings = function() {
          }, 1000)
     });
 
-    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.CLAIMTHESKY, {
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.GENERIC, {
         default: true,
         type: Boolean,
         scope: 'world',

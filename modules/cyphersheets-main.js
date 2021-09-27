@@ -3,6 +3,7 @@ import {registerModuleSettings} from "./settings.js";
 import {NumeneraObelisk, NumeneraObeliskAnimated, NumeneraMonolith, NumeneraMonolithAnimated} from "./numenera.js";
 import {preloadHandlebarsTemplates} from "./cs-extensions.js";
 import {GodforsakenArcher, GodforsakenArcherAnimated, GodforsakenCombat, GodforsakenCombatAnimated} from "./godforsaken.js";
+import {MoldvayGreen} from "./generic-themes.js";
 import {GotFDivineSpark, GotFDivineSparkAnimated, GotFDragon, GotFDragonAnimated} from "./godsofthefall.js";
 import {PostApocalyptic, PostApocalypticAnimated} from "./expanded-worlds.js";
 import {ClaimSkySuperheroes, ClaimSkySuperheroesAnimated} from "./claimthesky.js";
@@ -23,6 +24,7 @@ export class CypherSheets {
         CYPHERSHEETSCONFIG: 'cyphersheetsconfig',
         NUMENERA: 'numenera',
         CLAIMTHESKY: 'claimthesky',
+        GENERIC: 'generic',
         GODFORSAKEN: 'godforsaken',
         GODSOFTHEFALL: 'godsofthefall',
         PREDATION: 'predation',
@@ -66,6 +68,10 @@ Hooks.once('init', () => {
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.EXPANDED)) {
         Actors.registerSheet("cypher", PostApocalyptic, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", PostApocalypticAnimated, {types: ['PC'], makeDefault: false});
+    }
+
+    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GENERIC)) {
+        Actors.registerSheet("cypher", MoldvayGreen, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GODFORSAKEN)) {

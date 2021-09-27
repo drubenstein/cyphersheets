@@ -1,0 +1,25 @@
+.generic-themes {
+  margin: -8px;
+  padding: 5px 5px 0;
+  background: url("./images/generic-themes/moldvay.jpg") repeat;
+  /* color: var(--font-color); */
+}
+
+/* .generic-themes
+  > form
+  .sheet-header
+  .header-fields
+  div.flexrow
+  img.profile-img {
+  height: 160px;
+  width: 160px;
+  margin-right: 0;
+} */
+
+/* .generic-themes > form {
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 3px;
+  padding: 3px 2px 1px;
+  margin: 1px;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
+} */

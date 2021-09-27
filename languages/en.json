@@ -28,9 +28,10 @@
         }
       },
       "generic": {
-        "Name": "Generic PC sheets",
+        "Name": "Generic Themes PC sheets",
         "Hint": {
-          "1": "Dark Mode"
+          "1": "Dark Mode",
+          "2": "Moldvay Green"
         }
       },
       "godforsaken": {
