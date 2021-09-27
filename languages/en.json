@@ -27,6 +27,12 @@
           "4": "Western"
         }
       },
+      "generic": {
+        "Name": "Generic PC sheets",
+        "Hint": {
+          "1": "Dark Mode"
+        }
+      },
       "godforsaken": {
         "Name": "Godforsaken PC sheets",
         "Hint": {

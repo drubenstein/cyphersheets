@@ -32,7 +32,7 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
 
 .cypher-sheets-form section.sheet-settings {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   max-height: fit-content;
 }
 
@@ -42,14 +42,15 @@ button[data-key="cyphersheets.cyphersheetsconfig"]:hover {
 }
 
 .cypher-sheets-form #form-img {
-  grid-column: 4 / 6;
+  grid-column: 4 / 7;
   margin: 0;
   box-shadow: none;
   border: none;
   border-radius: none;
-  width: 100%;
+  width: 95%;
   height: auto;
   align-self: center;
+  justify-self: center;
 }
 
 .cypher-sheets-form #mcg-accordion-card {
