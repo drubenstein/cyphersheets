@@ -19,3 +19,21 @@ import {CustomCypherSheet} from "./cs-extensions.js";
       });
     }
   }
+
+  export class PtolusCitySpire extends CustomCypherSheet {
+    /** @override */
+    static get defaultOptions() {
+      return foundry.utils.mergeObject(super.defaultOptions, {
+        template: "modules/cyphersheets/templates/ptolus/ptolus-spire.html"
+      });
+    }
+  }
+
+  export class PtolusCitySpireAnimated extends CustomCypherSheet {
+    /** @override */
+    static get defaultOptions() {
+      return foundry.utils.mergeObject(super.defaultOptions, {
+        template: `modules/cyphersheets/templates/ptolus/ptolus-spire-animated.html`
+      });
+    }
+  }

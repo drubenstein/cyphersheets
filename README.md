@@ -51,6 +51,7 @@ The following images were used in accordance with MCG's [Fan Use Policy](https:/
 - "Gods of the Fall 07 Matt Stawicki"
 - "The Stars Are Fire 55 Katerina Ladon"
 - "Predation 14 Lie Setiawan"
+- "Ptolus 002 Federico Musetti"
 - "Cypher System Rulebook 4 Matt Stawicki"
 - "The Stars Are Fire 03 Katerina Ladon"
 - "Cypher System Rulebook 03 Martin DeDiego"

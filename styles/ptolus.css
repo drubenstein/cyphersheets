@@ -26,3 +26,19 @@
 .fighters input[name="data.teen.basic.name"] {
   text-shadow: 1px 1px 1px var(--name-shadow);
 }
+
+/* city-spire */
+
+.city-spire {
+  background-image: url("./images/ptolus/Ptolus_002_Federico_Musetti.jpeg");
+  background-position: center;
+  --font-color: #492b44;
+  --name-shadow: #b29ab0;
+  --hover-shadow: #2b4930;
+  --scrollbar-background: #492b4480;
+}
+
+.city-spire input[name="name"],
+.city-spire input[name="data.teen.basic.name"] {
+  text-shadow: 1px 1px 1px var(--name-shadow);
+}

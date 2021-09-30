@@ -11,7 +11,7 @@ import {PredationTRex, PredationTRexAnimated} from "./predation.js";
 import {TheStrangeAlien, TheStrangeAlienAnimated} from "./thestrange.js";
 import {StayAliveSurrounded, StayAliveSurroundedAnimated} from "./stayalive.js";
 import {StarsAreFireExplorer, StarsAreFireExplorerAnimated, StarsAreFireStarfighter, StarsAreFireStarfighterAnimated} from "./starsarefire.js";
-import {PtolusFighters, PtolusFightersAnimated} from "./ptolus.js";
+import {PtolusFighters, PtolusFightersAnimated, PtolusCitySpire, PtolusCitySpireAnimated} from "./ptolus.js";
 import {UnmaskedTeen, UnmaskedTeenAnimated} from "./unmasked.js";
 import {WeAreMadCastle, WeAreMadCastleAnimated} from "./waamh.js";
 
@@ -65,15 +65,6 @@ Hooks.once('init', () => {
         Actors.registerSheet("cypher", ClaimSkySuperheroesAnimated, {types: ['PC'], makeDefault: false});
     }
 
-    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.EXPANDED)) {
-        Actors.registerSheet("cypher", PostApocalyptic, {types: ['PC'], makeDefault: false});
-        Actors.registerSheet("cypher", PostApocalypticAnimated, {types: ['PC'], makeDefault: false});
-    }
-
-    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GENERIC)) {
-        Actors.registerSheet("cypher", MoldvayGreen, {types: ['PC'], makeDefault: false});
-    }
-
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GODFORSAKEN)) {
         Actors.registerSheet("cypher", GodforsakenArcher, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", GodforsakenArcherAnimated, {types: ['PC'], makeDefault: false});
@@ -88,12 +79,23 @@ Hooks.once('init', () => {
         Actors.registerSheet("cypher", GotFDragonAnimated, {types: ['PC'], makeDefault: false});
     }
 
+    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.GENERIC)) {
+        Actors.registerSheet("cypher", MoldvayGreen, {types: ['PC'], makeDefault: false});
+    }
+
+    if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.EXPANDED)) {
+        Actors.registerSheet("cypher", PostApocalyptic, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", PostApocalypticAnimated, {types: ['PC'], makeDefault: false});
+    }
+
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.PREDATION)) {
         Actors.registerSheet("cypher", PredationTRex, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", PredationTRexAnimated, {types: ['PC'], makeDefault: false});
     }
 
     if (game.settings.get(CypherSheets.ID, CypherSheets.SETTINGS.PTOLUS)) {
+        Actors.registerSheet("cypher", PtolusCitySpire, {types: ['PC'], makeDefault: false});
+        Actors.registerSheet("cypher", PtolusCitySpireAnimated, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", PtolusFighters, {types: ['PC'], makeDefault: false});
         Actors.registerSheet("cypher", PtolusFightersAnimated, {types: ['PC'], makeDefault: false});
     }
