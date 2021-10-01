@@ -30,9 +30,9 @@
 /* city-spire */
 
 .city-spire {
-  background-image: url("./images/ptolus/Ptolus_002_Federico_Musetti.jpeg");
+  background-image: url("./images/ptolus/Ptolus_002_Federico_Musetti.webp");
   background-position: center;
-  --font-color: #492b44;
+  --font-color: #3a2236;
   --name-shadow: #b29ab0;
   --hover-shadow: #2b4930;
   --scrollbar-background: #492b4480;

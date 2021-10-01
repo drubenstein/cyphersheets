@@ -64,8 +64,8 @@
       "ptolus": {
         "Name": "Ptolus PC sheets",
         "Hint": {
-          "1": "Two Fighters",
-          "2": "City by the Spire"
+          "1": "City by the Spire",
+          "2": "Two Fighters"
         }
       },
       "stay-alive": {
