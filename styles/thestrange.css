@@ -26,3 +26,19 @@
 .alien input[name="data.teen.basic.name"] {
   text-shadow: -1px 0px 1px var(--name-shadow);
 }
+
+/* recursion */
+
+.recursion {
+  background-image: url("./images/the-strange/The-Strange-Matt-Stawicki.jpeg");
+  background-position: right;
+  --font-color: #11244e;
+  --name-shadow: #a3dfec;
+  --hover-shadow: #4e3b11;
+  --scrollbar-background: #11244e80;
+}
+
+.recursion input[name="name"],
+.recursion input[name="data.teen.basic.name"] {
+  text-shadow: -1px 0px 1px var(--name-shadow);
+}

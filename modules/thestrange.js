@@ -19,3 +19,12 @@ import {CustomCypherSheet} from "./cs-extensions.js";
       });
     }
   }
+      
+  export class TheStrangeRecursion extends CustomCypherSheet {
+    /** @override */
+    static get defaultOptions() {
+      return foundry.utils.mergeObject(super.defaultOptions, {
+        template: "modules/cyphersheets/templates/thestrange/thestrange-recursion.html"
+      });
+    }
+  }
