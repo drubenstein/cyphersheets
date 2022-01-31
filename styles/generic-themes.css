@@ -45,6 +45,17 @@
   .sheet-header
   .header-fields
   div.flexrow
+  .profile-img-container {
+  height: 160px;
+  max-width: 160px;
+  margin-right: 0;
+}
+
+.generic-themes
+  > form
+  .sheet-header
+  .header-fields
+  div.flexrow
   img.profile-img {
   height: 160px;
   width: 160px;

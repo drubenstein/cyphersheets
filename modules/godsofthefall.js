@@ -20,20 +20,20 @@ import {CustomCypherSheet} from "./cs-extensions.js";
     }
   }
 
-  export class GotFDragon extends CustomCypherSheet {
+  export class GotFHellmaw extends CustomCypherSheet {
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: "modules/cyphersheets/templates/godsofthefall/gotf-dragon.html"
+        template: "modules/cyphersheets/templates/godsofthefall/gotf-hellmaw.html"
       });
     }
   }
 
-  export class GotFDragonAnimated extends CustomCypherSheet {
+  export class GotFHellmawAnimated extends CustomCypherSheet {
     /** @override */
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
-        template: `modules/cyphersheets/templates/godsofthefall/gotf-dragon-animated.html`
+        template: `modules/cyphersheets/templates/godsofthefall/gotf-hellmaw-animated.html`
       });
     }
   }

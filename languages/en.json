@@ -45,7 +45,7 @@
         "Name": "Gods of the Fall PC sheets",
         "Hint": {
           "1": "Divine Spark",
-          "2": "Soulrest Dragon"
+          "2": "Hellmaw"
         }
       },
       "numenera": {
@@ -84,7 +84,8 @@
       "the-strange": {
         "Name": "The Strange PC sheets",
         "Hint": {
-          "1": "Alien Invasion"
+          "1": "Alien Invasion",
+          "2": "Recursion"
         }
       },
       "unmasked": {

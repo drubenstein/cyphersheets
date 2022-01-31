@@ -57,6 +57,7 @@ The following images were used in accordance with MCG's [Fan Use Policy](https:/
 - "Cypher System Rulebook 03 Martin DeDiego"
 - "Cypher System Rulebook 05 Martin DeDiego"
 - "Unmasked 11 Cathy Wilkins"
+- "The Strange Matt Stawicki"
 - "We Are All Mad Here 17 Nino Vecia"
 - "Godforsaken 72 Roberto Pitturru"
 - "MCG Numenera Obelisk of the Water God"
