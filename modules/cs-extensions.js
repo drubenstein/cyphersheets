@@ -18,6 +18,6 @@ export class CustomCypherSheet extends CypherActorSheetPC {
 export const preloadHandlebarsTemplates = async function() {
   return loadTemplates([
 
-    "systems/cyphersystem/templates/actor/pc-sheet.html"
+    "systems/cyphersystem/templates/actor-sheets/pc-sheet.html"
   ]);
 };
