@@ -1,0 +1,105 @@
+/* generic-themes */
+
+.generic-themes {
+  margin: -8px;
+  padding: 5px 5px 0;
+}
+
+.generic-themes > form {
+  margin: 1px;
+}
+
+.generic-themes input[name="name"],
+.generic-themes input[name="data.teen.basic.name"] {
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  margin: 0 2px 0 5px;
+}
+
+.generic-themes input[name="data.basic.tier"],
+.generic-themes input[name="data.basic.effort"],
+.generic-themes input[name="data.basic.xp"] {
+  margin-right: 4px;
+}
+
+.generic-themes input[name="data.basic.tier"] {
+  margin-top: 18px;
+}
+
+.generic-themes .linkedButton:hover {
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.generic-themes input:hover[type="checkbox"] {
+  cursor: pointer;
+}
+
+.generic-themes label.label-basic-info:first-of-type {
+  margin-top: 18px;
+}
+
+.generic-themes
+  > form
+  .sheet-header
+  .header-fields
+  div.flexrow
+  .profile-img-container {
+  height: 160px;
+  max-width: 160px;
+  margin-right: 0;
+}
+
+.generic-themes
+  > form
+  .sheet-header
+  .header-fields
+  div.flexrow
+  img.profile-img {
+  height: 160px;
+  width: 160px;
+  margin-right: 0;
+}
+
+.generic-themes .sheet-body .tab {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* moldvay */
+
+@font-face {
+  font-family: "DnD";
+  src: url("./fonts/DnDC.ttf") format("truetype");
+}
+
+.moldvay {
+  background: url("./images/generic-themes/moldvay.webp");
+}
+
+.moldvay input[name="name"],
+.moldvay input[name="data.teen.basic.name"] {
+  font: 3em "DnD";
+  height: 37px;
+  margin-top: -7px;
+}
+
+.moldvay .Inability,
+.moldvay .Practiced,
+.moldvay .Specialized,
+.moldvay .Trained {
+  text-shadow: 0 0 20px white;
+}
+
+.moldvay .Inability {
+  color: darkred;
+}
+
+.moldvay .Specialized {
+  color: darkblue;
+}
+
+.moldvay .Trained {
+  color: darkgreen;
+}
