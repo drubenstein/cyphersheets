@@ -52,6 +52,16 @@ export const registerModuleSettings = function() {
             location.reload();
          }, 1000)
     });
+    
+    game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.OLDGODSOFAPPALACHIA, {
+        default: true,
+        type: Boolean,
+        scope: 'world',
+        config: false,
+        onChange: () => setTimeout(() => {
+            location.reload();
+         }, 1000)
+    });
 
     game.settings.register(CypherSheets.ID, CypherSheets.SETTINGS.GODFORSAKEN, {
         default: true,

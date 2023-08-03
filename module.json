@@ -37,6 +37,7 @@
     "styles/generic-themes.css",
     "styles/godforsaken.css",
     "styles/godsofthefall.css",
+    "styles/oldgodsofappalachia.css",
     "styles/claimthesky.css",
     "styles/predation.css",
     "styles/thestrange.css",
@@ -56,6 +57,6 @@
     }
   ],
   "url": "https://github.com/gonzaPaEst/cyphersheets",
-  "manifest": "https://raw.githubusercontent.com/gonzaPaEst/cyphersheets/v0.3.3/module.json",
-  "download": "https://github.com/gonzaPaEst/cyphersheets/releases/download/v0.3.3/module.zip"
+  "manifest": "https://raw.githubusercontent.com/drubenstein/cyphersheets/v0.3.3/module.json",
+  "download": "https://github.com/drubenstein/cyphersheets/releases/download/v0.3.3/module.zip"
 }
